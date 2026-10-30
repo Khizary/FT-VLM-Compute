@@ -219,7 +219,10 @@ def qualitative():
                              "auto_format_check": fmt_ok, "auto_trigram_repetition": round(rep, 3), "auto_math_markers": len(math_terms.findall(txt)),
                              "format_compliance (0-2)": "", "coherence_relevance (0-2)": "", "repetition (0-2)": "", "unneeded_math_framing (y/n)": "",
                              "inappropriate_content (y/n)": "", "excerpt / note": "", "response": txt})
-    with open(f"{R}/qualitative_annotation_sheet.csv", "w", newline="") as f:
+    out = f"{R}/qualitative_annotation_sheet.csv"
+    if os.path.exists(out) and any(r.get("excerpt / note") for r in csv.DictReader(open(out, newline=""))):
+        out = f"{R}/qualitative_annotation_sheet.new.csv"  # never overwrite the hand-filled sheet
+    with open(out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)

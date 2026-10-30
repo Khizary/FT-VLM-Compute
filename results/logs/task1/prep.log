@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Generating train split:   0%|          | 0/395000 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 395000/395000 [00:06<00:00, 61253.73 examples/s]
+Generating train split: 100%|██████████| 395000/395000 [00:06<00:00, 60821.90 examples/s]
+[16:46:58] MetaMathQA rows: 395000; gsm8k test: 1319
+[16:47:38] data summary: {'filter_counts': {'too_long': 2, 'scanned': 40002, 'kept': 40000}, 'type_counts': {'MATH_AnsAug': 7580, 'GSM_Rephrased': 8044, 'GSM_SV': 4100, 'GSM_FOBAR': 4043, 'GSM_AnsAug': 8140, 'MATH_FOBAR': 1574, 'MATH_Rephrased': 5015, 'MATH_SV': 1504}, 'formatted_len': {'mean': 247.710575, 'p50': 219.0, 'p99': 681.0, 'max': 1941}, 'response_tokens_total': 7100056, 'all_tokens_total': 9908423, 'normalisation': 'NFKC, lowercase, [^a-z0-9]+ -> space, collapse whitespace; drop if query or original_question matches a GSM8K test question', 'build_time_s': 61.87771797180176}

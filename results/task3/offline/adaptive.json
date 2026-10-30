@@ -1,0 +1,700 @@
+{
+ "math": {
+  "dev_fixed32_sc": {
+   "accuracy": 0.825,
+   "mean_token_cost": 18322.4
+  },
+  "families": {
+   "agreement": {
+    "dev_grid": [
+     {
+      "tau": null,
+      "gamma": null,
+      "dev_accuracy": 0.825,
+      "dev_mean_token_cost": 18322.4,
+      "dev_mean_rollouts": 32.0
+     },
+     {
+      "tau": 0.5,
+      "gamma": null,
+      "dev_accuracy": 0.8145,
+      "dev_mean_token_cost": 5052.79,
+      "dev_mean_rollouts": 6.648
+     },
+     {
+      "tau": 0.625,
+      "gamma": null,
+      "dev_accuracy": 0.8260000000000001,
+      "dev_mean_token_cost": 7088.955499999999,
+      "dev_mean_rollouts": 9.15
+     },
+     {
+      "tau": 0.75,
+      "gamma": null,
+      "dev_accuracy": 0.8260000000000001,
+      "dev_mean_token_cost": 7717.453,
+      "dev_mean_rollouts": 10.114
+     },
+     {
+      "tau": 0.875,
+      "gamma": null,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 9980.345500000001,
+      "dev_mean_rollouts": 13.648
+     },
+     {
+      "tau": 1.0,
+      "gamma": null,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 10848.273000000001,
+      "dev_mean_rollouts": 15.172
+     }
+    ],
+    "selected": {
+     "tau": 0.625,
+     "gamma": null,
+     "dev_accuracy": 0.8260000000000001,
+     "dev_mean_token_cost": 7088.955499999999,
+     "dev_mean_rollouts": 9.15
+    },
+    "rule": "lowest dev cost with dev acc >= fixed-32 SC - 1pp; ties: higher acc, smaller tau, smaller gamma",
+    "heldout": {
+     "accuracy": 0.736375,
+     "mean_token_cost": 10138.771125000001,
+     "mean_rollouts": 11.823000000000002,
+     "stop_distribution": {
+      "4": 0.663,
+      "8": 0.058375,
+      "16": 0.01325,
+      "32": 0.265375
+     },
+     "incorrect_early_stops_frac": 0.0825,
+     "incorrect_early_stops_recoverable_by_sc32_frac": 0.07727272727272727,
+     "by_pool_correct_fraction": [
+      {
+       "bin": "(-0.01, 0.0]",
+       "mean_rollouts": 23.402898550724636,
+       "accuracy": 0.0,
+       "n": 690
+      },
+      {
+       "bin": "(0.0, 0.25]",
+       "mean_rollouts": 25.56056338028169,
+       "accuracy": 0.14084507042253522,
+       "n": 1420
+      },
+      {
+       "bin": "(0.25, 0.5]",
+       "mean_rollouts": 21.784615384615385,
+       "accuracy": 0.767948717948718,
+       "n": 780
+      },
+      {
+       "bin": "(0.5, 0.75]",
+       "mean_rollouts": 9.481081081081081,
+       "accuracy": 0.9783783783783784,
+       "n": 740
+      },
+      {
+       "bin": "(0.75, 0.999]",
+       "mean_rollouts": 4.372571428571429,
+       "accuracy": 0.9988571428571429,
+       "n": 1750
+      },
+      {
+       "bin": "(0.999, 1.0]",
+       "mean_rollouts": 4.0,
+       "accuracy": 1.0,
+       "n": 2620
+      }
+     ]
+    }
+   },
+   "quality_aware": {
+    "dev_grid": [
+     {
+      "tau": null,
+      "gamma": null,
+      "dev_accuracy": 0.825,
+      "dev_mean_token_cost": 18322.4,
+      "dev_mean_rollouts": 32.0
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.0,
+      "dev_accuracy": 0.8215,
+      "dev_mean_token_cost": 5479.528499999999,
+      "dev_mean_rollouts": 7.152
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.1,
+      "dev_accuracy": 0.8220000000000001,
+      "dev_mean_token_cost": 5663.57,
+      "dev_mean_rollouts": 7.4319999999999995
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.25,
+      "dev_accuracy": 0.821,
+      "dev_mean_token_cost": 6009.057999999999,
+      "dev_mean_rollouts": 7.914000000000001
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.5,
+      "dev_accuracy": 0.8225,
+      "dev_mean_token_cost": 7018.34,
+      "dev_mean_rollouts": 9.326
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.0,
+      "dev_accuracy": 0.8265,
+      "dev_mean_token_cost": 7129.350000000001,
+      "dev_mean_rollouts": 9.22
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.1,
+      "dev_accuracy": 0.8265,
+      "dev_mean_token_cost": 7248.73,
+      "dev_mean_rollouts": 9.422
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.25,
+      "dev_accuracy": 0.8255000000000001,
+      "dev_mean_token_cost": 7292.651,
+      "dev_mean_rollouts": 9.498
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.5,
+      "dev_accuracy": 0.825,
+      "dev_mean_token_cost": 7810.709,
+      "dev_mean_rollouts": 10.288
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.0,
+      "dev_accuracy": 0.8265,
+      "dev_mean_token_cost": 7756.0555,
+      "dev_mean_rollouts": 10.175999999999998
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.1,
+      "dev_accuracy": 0.8265,
+      "dev_mean_token_cost": 7927.5464999999995,
+      "dev_mean_rollouts": 10.434
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.25,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 7940.8645,
+      "dev_mean_rollouts": 10.462
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.5,
+      "dev_accuracy": 0.8244999999999999,
+      "dev_mean_token_cost": 8242.1905,
+      "dev_mean_rollouts": 10.96
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.0,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 9980.345500000001,
+      "dev_mean_rollouts": 13.648
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.1,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 9980.345500000001,
+      "dev_mean_rollouts": 13.648
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.25,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 9980.345500000001,
+      "dev_mean_rollouts": 13.648
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.5,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 9980.345500000001,
+      "dev_mean_rollouts": 13.648
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.0,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 10848.273000000001,
+      "dev_mean_rollouts": 15.172
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.1,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 10848.273000000001,
+      "dev_mean_rollouts": 15.172
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.25,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 10848.273000000001,
+      "dev_mean_rollouts": 15.172
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.5,
+      "dev_accuracy": 0.826,
+      "dev_mean_token_cost": 10848.273000000001,
+      "dev_mean_rollouts": 15.172
+     }
+    ],
+    "selected": {
+     "tau": 0.5,
+     "gamma": 0.0,
+     "dev_accuracy": 0.8215,
+     "dev_mean_token_cost": 5479.528499999999,
+     "dev_mean_rollouts": 7.152
+    },
+    "rule": "lowest dev cost with dev acc >= fixed-32 SC - 1pp; ties: higher acc, smaller tau, smaller gamma",
+    "heldout": {
+     "accuracy": 0.7317499999999998,
+     "mean_token_cost": 7663.055375,
+     "mean_rollouts": 9.0075,
+     "stop_distribution": {
+      "4": 0.763625,
+      "8": 0.058125,
+      "16": 0.0135,
+      "32": 0.16475
+     },
+     "incorrect_early_stops_frac": 0.144,
+     "incorrect_early_stops_recoverable_by_sc32_frac": 0.11371527777777778,
+     "by_pool_correct_fraction": [
+      {
+       "bin": "(-0.01, 0.0]",
+       "mean_rollouts": 18.515942028985506,
+       "accuracy": 0.0,
+       "n": 690
+      },
+      {
+       "bin": "(0.0, 0.25]",
+       "mean_rollouts": 19.43380281690141,
+       "accuracy": 0.15,
+       "n": 1420
+      },
+      {
+       "bin": "(0.25, 0.5]",
+       "mean_rollouts": 12.374358974358975,
+       "accuracy": 0.7243589743589743,
+       "n": 780
+      },
+      {
+       "bin": "(0.5, 0.75]",
+       "mean_rollouts": 5.697297297297298,
+       "accuracy": 0.9621621621621622,
+       "n": 740
+      },
+      {
+       "bin": "(0.75, 0.999]",
+       "mean_rollouts": 4.194285714285714,
+       "accuracy": 0.9965714285714286,
+       "n": 1750
+      },
+      {
+       "bin": "(0.999, 1.0]",
+       "mean_rollouts": 4.0,
+       "accuracy": 1.0,
+       "n": 2620
+      }
+     ]
+    }
+   }
+  },
+  "heldout_fixed_sc": {
+   "1": {
+    "accuracy": 0.6435,
+    "mean_token_cost": 669.772625
+   },
+   "2": {
+    "accuracy": 0.6435,
+    "mean_token_cost": 1339.8655
+   },
+   "4": {
+    "accuracy": 0.6919999999999998,
+    "mean_token_cost": 2679.694125
+   },
+   "8": {
+    "accuracy": 0.7178749999999999,
+    "mean_token_cost": 5344.108500000001
+   },
+   "16": {
+    "accuracy": 0.7311250000000001,
+    "mean_token_cost": 10677.742750000001
+   },
+   "32": {
+    "accuracy": 0.737875,
+    "mean_token_cost": 21347.0175
+   }
+  }
+ },
+ "mathvista": {
+  "dev_fixed32_sc": {
+   "accuracy": 0.6425,
+   "mean_token_cost": 9217.485
+  },
+  "families": {
+   "agreement": {
+    "dev_grid": [
+     {
+      "tau": null,
+      "gamma": null,
+      "dev_accuracy": 0.6425,
+      "dev_mean_token_cost": 9217.485,
+      "dev_mean_rollouts": 32.0
+     },
+     {
+      "tau": 0.5,
+      "gamma": null,
+      "dev_accuracy": 0.636,
+      "dev_mean_token_cost": 3003.801,
+      "dev_mean_rollouts": 8.148
+     },
+     {
+      "tau": 0.625,
+      "gamma": null,
+      "dev_accuracy": 0.6455,
+      "dev_mean_token_cost": 4635.016,
+      "dev_mean_rollouts": 12.86
+     },
+     {
+      "tau": 0.75,
+      "gamma": null,
+      "dev_accuracy": 0.644,
+      "dev_mean_token_cost": 5120.7335,
+      "dev_mean_rollouts": 14.311999999999998
+     },
+     {
+      "tau": 0.875,
+      "gamma": null,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 6761.925499999999,
+      "dev_mean_rollouts": 19.878
+     },
+     {
+      "tau": 1.0,
+      "gamma": null,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 7221.213000000001,
+      "dev_mean_rollouts": 21.793999999999997
+     }
+    ],
+    "selected": {
+     "tau": 0.5,
+     "gamma": null,
+     "dev_accuracy": 0.636,
+     "dev_mean_token_cost": 3003.801,
+     "dev_mean_rollouts": 8.148
+    },
+    "rule": "lowest dev cost with dev acc >= fixed-32 SC - 1pp; ties: higher acc, smaller tau, smaller gamma",
+    "heldout": {
+     "accuracy": 0.613125,
+     "mean_token_cost": 2619.7696250000004,
+     "mean_rollouts": 7.816,
+     "stop_distribution": {
+      "4": 0.78125,
+      "8": 0.081125,
+      "16": 0.022625,
+      "32": 0.115
+     },
+     "incorrect_early_stops_frac": 0.292125,
+     "incorrect_early_stops_recoverable_by_sc32_frac": 0.14377406931964057,
+     "by_pool_correct_fraction": [
+      {
+       "bin": "(-0.01, 0.0]",
+       "mean_rollouts": 10.676190476190476,
+       "accuracy": 0.0,
+       "n": 840
+      },
+      {
+       "bin": "(0.0, 0.25]",
+       "mean_rollouts": 13.169230769230769,
+       "accuracy": 0.08141025641025641,
+       "n": 1560
+      },
+      {
+       "bin": "(0.25, 0.5]",
+       "mean_rollouts": 9.917037037037037,
+       "accuracy": 0.4985185185185185,
+       "n": 1350
+      },
+      {
+       "bin": "(0.5, 0.75]",
+       "mean_rollouts": 5.702255639097745,
+       "accuracy": 0.8917293233082707,
+       "n": 1330
+      },
+      {
+       "bin": "(0.75, 0.999]",
+       "mean_rollouts": 4.173333333333333,
+       "accuracy": 0.9995238095238095,
+       "n": 2100
+      },
+      {
+       "bin": "(0.999, 1.0]",
+       "mean_rollouts": 4.0,
+       "accuracy": 1.0,
+       "n": 820
+      }
+     ]
+    }
+   },
+   "quality_aware": {
+    "dev_grid": [
+     {
+      "tau": null,
+      "gamma": null,
+      "dev_accuracy": 0.6425,
+      "dev_mean_token_cost": 9217.485,
+      "dev_mean_rollouts": 32.0
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.0,
+      "dev_accuracy": 0.6395000000000001,
+      "dev_mean_token_cost": 3436.2555000000007,
+      "dev_mean_rollouts": 9.522
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.1,
+      "dev_accuracy": 0.6395000000000001,
+      "dev_mean_token_cost": 3710.8810000000003,
+      "dev_mean_rollouts": 10.388
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.25,
+      "dev_accuracy": 0.64,
+      "dev_mean_token_cost": 4040.848,
+      "dev_mean_rollouts": 11.458000000000002
+     },
+     {
+      "tau": 0.5,
+      "gamma": 0.5,
+      "dev_accuracy": 0.6425,
+      "dev_mean_token_cost": 4926.927,
+      "dev_mean_rollouts": 14.328000000000001
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.0,
+      "dev_accuracy": 0.6445000000000001,
+      "dev_mean_token_cost": 4707.7789999999995,
+      "dev_mean_rollouts": 13.104
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.1,
+      "dev_accuracy": 0.644,
+      "dev_mean_token_cost": 4835.2465,
+      "dev_mean_rollouts": 13.59
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.25,
+      "dev_accuracy": 0.6435,
+      "dev_mean_token_cost": 4896.294,
+      "dev_mean_rollouts": 13.818000000000001
+     },
+     {
+      "tau": 0.625,
+      "gamma": 0.5,
+      "dev_accuracy": 0.6435,
+      "dev_mean_token_cost": 5354.556500000001,
+      "dev_mean_rollouts": 15.454
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.0,
+      "dev_accuracy": 0.6435,
+      "dev_mean_token_cost": 5201.788,
+      "dev_mean_rollouts": 14.607999999999999
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.1,
+      "dev_accuracy": 0.6425,
+      "dev_mean_token_cost": 5351.487000000001,
+      "dev_mean_rollouts": 15.154000000000002
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.25,
+      "dev_accuracy": 0.6425,
+      "dev_mean_token_cost": 5355.452000000001,
+      "dev_mean_rollouts": 15.19
+     },
+     {
+      "tau": 0.75,
+      "gamma": 0.5,
+      "dev_accuracy": 0.6445000000000001,
+      "dev_mean_token_cost": 5633.371000000001,
+      "dev_mean_rollouts": 16.218
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.0,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 6761.925499999999,
+      "dev_mean_rollouts": 19.878
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.1,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 6761.925499999999,
+      "dev_mean_rollouts": 19.878
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.25,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 6761.925499999999,
+      "dev_mean_rollouts": 19.878
+     },
+     {
+      "tau": 0.875,
+      "gamma": 0.5,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 6761.925499999999,
+      "dev_mean_rollouts": 19.878
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.0,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 7221.213000000001,
+      "dev_mean_rollouts": 21.793999999999997
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.1,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 7221.213000000001,
+      "dev_mean_rollouts": 21.793999999999997
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.25,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 7221.213000000001,
+      "dev_mean_rollouts": 21.793999999999997
+     },
+     {
+      "tau": 1.0,
+      "gamma": 0.5,
+      "dev_accuracy": 0.642,
+      "dev_mean_token_cost": 7221.213000000001,
+      "dev_mean_rollouts": 21.793999999999997
+     }
+    ],
+    "selected": {
+     "tau": 0.5,
+     "gamma": 0.0,
+     "dev_accuracy": 0.6395000000000001,
+     "dev_mean_token_cost": 3436.2555000000007,
+     "dev_mean_rollouts": 9.522
+    },
+    "rule": "lowest dev cost with dev acc >= fixed-32 SC - 1pp; ties: higher acc, smaller tau, smaller gamma",
+    "heldout": {
+     "accuracy": 0.617,
+     "mean_token_cost": 2984.11875,
+     "mean_rollouts": 9.032,
+     "stop_distribution": {
+      "4": 0.7095,
+      "8": 0.10775,
+      "16": 0.03225,
+      "32": 0.1505
+     },
+     "incorrect_early_stops_frac": 0.263625,
+     "incorrect_early_stops_recoverable_by_sc32_frac": 0.12754860123281175,
+     "by_pool_correct_fraction": [
+      {
+       "bin": "(-0.01, 0.0]",
+       "mean_rollouts": 12.323809523809524,
+       "accuracy": 0.0,
+       "n": 840
+      },
+      {
+       "bin": "(0.0, 0.25]",
+       "mean_rollouts": 15.292307692307693,
+       "accuracy": 0.07115384615384615,
+       "n": 1560
+      },
+      {
+       "bin": "(0.25, 0.5]",
+       "mean_rollouts": 12.352592592592593,
+       "accuracy": 0.5088888888888888,
+       "n": 1350
+      },
+      {
+       "bin": "(0.5, 0.75]",
+       "mean_rollouts": 6.809022556390977,
+       "accuracy": 0.9165413533834587,
+       "n": 1330
+      },
+      {
+       "bin": "(0.75, 0.999]",
+       "mean_rollouts": 4.3028571428571425,
+       "accuracy": 0.9995238095238095,
+       "n": 2100
+      },
+      {
+       "bin": "(0.999, 1.0]",
+       "mean_rollouts": 4.0,
+       "accuracy": 1.0,
+       "n": 820
+      }
+     ]
+    }
+   }
+  },
+  "heldout_fixed_sc": {
+   "1": {
+    "accuracy": 0.5359999999999999,
+    "mean_token_cost": 277.79637499999995
+   },
+   "2": {
+    "accuracy": 0.5359999999999999,
+    "mean_token_cost": 551.250125
+   },
+   "4": {
+    "accuracy": 0.578375,
+    "mean_token_cost": 1111.591625
+   },
+   "8": {
+    "accuracy": 0.600375,
+    "mean_token_cost": 2229.902
+   },
+   "16": {
+    "accuracy": 0.611,
+    "mean_token_cost": 4461.8425
+   },
+   "32": {
+    "accuracy": 0.620625,
+    "mean_token_cost": 8897.7575
+   }
+  }
+ }
+}

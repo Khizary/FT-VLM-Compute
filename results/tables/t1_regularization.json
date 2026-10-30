@@ -1,0 +1,35 @@
+{
+ "fullft": {
+  "displacement_mid": 10.00943726055536,
+  "displacement_final": 10.642114634816245,
+  "final_sft_loss_last50": 0.18421417773067744,
+  "omega_implied_final": 56.62730195028505
+ },
+ "l2sp": {
+  "displacement_mid": 6.425538910983486,
+  "displacement_final": 6.257672508311536,
+  "final_sft_loss_last50": 0.18428786877157802,
+  "omega_final": 19.579232610638996,
+  "lam_omega_final": 0.019579232610638996,
+  "lam_omega_max": 0.020680435073366817,
+  "lam_omega_over_sft_final": 0.11923229753609542,
+  "omega_implied_final": 19.579232610638996
+ },
+ "adapters": {
+  "lora4": {
+   "init_A_checksum": -34.43827349327134,
+   "oplora_constraint": {}
+  },
+  "lora16": {
+   "init_A_checksum": -30.70024110353264,
+   "oplora_constraint": {}
+  },
+  "oplora": {
+   "init_A_checksum": -30.70024110353264,
+   "oplora_constraint": {
+    "constraint_max_rel_UkT_B": 0.0001242634461959824,
+    "constraint_max_rel_A_Vk": 0.0001895366149256006
+   }
+  }
+ }
+}

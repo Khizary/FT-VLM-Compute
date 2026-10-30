@@ -1,0 +1,52 @@
+{
+  "run": "l2sp",
+  "config": {
+    "method": "full",
+    "lr": 2e-05,
+    "lam": 0.001
+  },
+  "seed": 6304,
+  "updates": 1250,
+  "examples": 40000,
+  "micro_batch": 2,
+  "grad_accum": 16,
+  "warmup": 38,
+  "schedule": "linear warmup 38, cosine to 0 at 1250",
+  "precision": "fp16 autocast + dynamic GradScaler; fp32 master (full) / fp16 frozen backbone + fp32 adapters",
+  "trainable_params": 596049920,
+  "train_time_s": 8463.933377027512,
+  "train_time_h": 2.3510926047298644,
+  "wall_time_this_session_s": 8594.181744813919,
+  "sessions": 1,
+  "peak_alloc_gb": 12.805304050445557,
+  "peak_reserved_gb_last_session": 14.044921875,
+  "skipped_updates": [],
+  "overhead": {
+    "l2sp_ref_transfer_s": 0.3642303943634033,
+    "l2sp_ref_bytes": 1192099840,
+    "l2sp_ref_dtype": "bfloat16 (lossless: the hub checkpoint is bf16)",
+    "l2sp_penalty_time_s": 217.8269166946411,
+    "recovery_ckpt_bytes": {
+      "312": 7153025881,
+      "625": 7153025945,
+      "937": 7153025945,
+      "1250": 7153027193
+    }
+  },
+  "env": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "cuda": "12.8",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "lm_eval": "0.4.13",
+    "datasets": "4.8.5",
+    "safetensors": "0.8.0"
+  },
+  "exports": {
+    "mid": "outputs/task1/l2sp/mid/export_info.json",
+    "final": "outputs/task1/l2sp/final/export_info.json"
+  }
+}

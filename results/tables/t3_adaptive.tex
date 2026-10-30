@@ -1,0 +1,20 @@
+\toprule
+Dataset & Policy & tau & gamma & Accuracy & Tokens (k) & Rollouts & Stops at 4/8/16/32 (%) \\
+\midrule
+MATH & fixed SC, N=1 & -- & -- & 64.3 & 0.67 & 1.0 & -- \\
+MATH & fixed SC, N=2 & -- & -- & 64.3 & 1.34 & 2.0 & -- \\
+MATH & fixed SC, N=4 & -- & -- & 69.2 & 2.68 & 4.0 & -- \\
+MATH & fixed SC, N=8 & -- & -- & 71.8 & 5.34 & 8.0 & -- \\
+MATH & fixed SC, N=16 & -- & -- & 73.1 & 10.68 & 16.0 & -- \\
+MATH & fixed SC, N=32 & -- & -- & 73.8 & 21.35 & 32.0 & -- \\
+MATH & agreement & 0.625 & -- & 73.6 & 10.14 & 11.8 & 66/6/1/27 \\
+MATH & quality-aware & 0.5 & 0.0 & 73.2 & 7.66 & 9.0 & 76/6/1/16 \\
+MathVista & fixed SC, N=1 & -- & -- & 53.6 & 0.28 & 1.0 & -- \\
+MathVista & fixed SC, N=2 & -- & -- & 53.6 & 0.55 & 2.0 & -- \\
+MathVista & fixed SC, N=4 & -- & -- & 57.8 & 1.11 & 4.0 & -- \\
+MathVista & fixed SC, N=8 & -- & -- & 60.0 & 2.23 & 8.0 & -- \\
+MathVista & fixed SC, N=16 & -- & -- & 61.1 & 4.46 & 16.0 & -- \\
+MathVista & fixed SC, N=32 & -- & -- & 62.1 & 8.90 & 32.0 & -- \\
+MathVista & agreement & 0.5 & -- & 61.3 & 2.62 & 7.8 & 78/8/2/12 \\
+MathVista & quality-aware & 0.5 & 0.0 & 61.7 & 2.98 & 9.0 & 71/11/3/15 \\
+\bottomrule

@@ -1,0 +1,149 @@
+{
+  "stage_time_s": {
+    "caption_alignment": 2649.331849336624,
+    "visual_instruction": 2014.317699432373,
+    "natural_vqa": 992.6449217796326
+  },
+  "stage_peak_gb": {
+    "caption_alignment": 1.5624828338623047,
+    "visual_instruction": 1.5672831535339355,
+    "natural_vqa": 1.56231689453125
+  },
+  "mixture_counts": {
+    "visual_instruction": {
+      "counting": 2975,
+      "caption": 3006,
+      "presence": 6019
+    },
+    "natural_vqa": {
+      "vqa": 4196,
+      "caption": 601,
+      "counting": 615,
+      "presence": 588
+    }
+  },
+  "skipped": [
+    1,
+    2,
+    3,
+    4,
+    4330
+  ],
+  "checks": {
+    "connector_grad_check": {
+      "update": 5,
+      "connector_grad_norm": 1.0,
+      "ok": true
+    }
+  },
+  "calibration": {
+    "rule": "scale = mean||text token embedding|| (2,000 training captions/questions) / mean||connector output at init|| (256 training images)",
+    "text_embed_mean_norm": 0.8699440956115723,
+    "connector_mean_norm_unscaled": 15.961369514465332,
+    "scale": 0.05450309854822713,
+    "connector_mean_norm_scaled": 0.8699440360069275,
+    "n_text_tokens": 19099,
+    "n_images": 256
+  },
+  "trainable_params": {
+    "caption_alignment": {
+      "total": 1837056,
+      "connector": 1837056,
+      "lora": 0
+    },
+    "visual_instruction": {
+      "total": 6424576,
+      "connector": 1837056,
+      "lora": 4587520
+    },
+    "natural_vqa": {
+      "total": 6424576,
+      "connector": 1837056,
+      "lora": 4587520
+    }
+  },
+  "run": "main",
+  "n_visual_tokens": 196,
+  "total_updates": 4500,
+  "examples": 72000,
+  "stages": [
+    {
+      "name": "caption_alignment",
+      "updates": 2250,
+      "lr_c": 0.001,
+      "lr_l": null,
+      "mix": null
+    },
+    {
+      "name": "visual_instruction",
+      "updates": 1500,
+      "lr_c": 0.0001,
+      "lr_l": 2e-05,
+      "mix": [
+        [
+          "presence",
+          0.5
+        ],
+        [
+          "counting",
+          0.25
+        ],
+        [
+          "caption",
+          0.25
+        ]
+      ]
+    },
+    {
+      "name": "natural_vqa",
+      "updates": 750,
+      "lr_c": 5e-05,
+      "lr_l": 1e-05,
+      "mix": [
+        [
+          "vqa",
+          0.7
+        ],
+        [
+          "presence",
+          0.1
+        ],
+        [
+          "counting",
+          0.1
+        ],
+        [
+          "caption",
+          0.1
+        ]
+      ]
+    }
+  ],
+  "question_truncations": 0,
+  "train_time_s": 5656.29447054863,
+  "env": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "cuda": "12.8",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "lm_eval": "0.4.13",
+    "datasets": "4.8.5",
+    "safetensors": "0.8.0"
+  },
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "optimizer": "AdamW wd 0.01 (no decay on biases), fresh optimizer per stage, per-stage 5% warmup + cosine to 10% peak",
+  "checkpoint_bytes": 331581180
+}

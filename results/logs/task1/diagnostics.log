@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[01:01:45] fullft_mid: L0 rho=0.133 eta=0.0132 Rm=0.0513 Rn=0.0259, L13 rho=0.1484 eta=0.0154 Rm=0.0548 Rn=0.0304, L27 rho=0.1162 eta=0.0124 Rm=0.02 Rn=0.0279
+[01:01:46] fullft: L0 rho=0.1331 eta=0.0136 Rm=0.0529 Rn=0.0266, L13 rho=0.1485 eta=0.016 Rm=0.0552 Rn=0.031, L27 rho=0.1155 eta=0.0129 Rm=0.0199 Rn=0.0282
+[01:01:46] l2sp: L0 rho=0.132 eta=0.0111 Rm=0.0452 Rn=0.0225, L13 rho=0.1495 eta=0.0137 Rm=0.0459 Rn=0.0279, L27 rho=0.107 eta=0.00787 Rm=0.0188 Rn=0.0252
+[01:01:46] lora4: L0 rho=0.1353 eta=0.00939 Rm=0.0676 Rn=0.0158, L13 rho=0.1399 eta=0.0101 Rm=0.0971 Rn=0.0142, L27 rho=0.1061 eta=0.00685 Rm=0.00442 Rn=0.00535
+[01:01:46] lora16: L0 rho=0.1406 eta=0.0147 Rm=0.0417 Rn=0.0259, L13 rho=0.1417 eta=0.0182 Rm=0.0587 Rn=0.0258, L27 rho=0.1163 eta=0.0115 Rm=0.0103 Rn=0.0141
+[01:01:46] oplora: L0 rho=8.559e-10 eta=0.0147 Rm=0.0516 Rn=0.0323, L13 rho=7.661e-10 eta=0.0186 Rm=0.059 Rn=0.028, L27 rho=1.68e-09 eta=0.00944 Rm=0.0097 Rn=0.0128

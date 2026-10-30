@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[19:04:26] grounding/correct: acc=0.727 nll=0.776
+[19:04:33] grounding/complementary: acc=0.094 nll=3.766
+[19:04:40] grounding/mismatched: acc=0.328 nll=2.658
+[19:04:44] grounding/noimage: acc=0.328 nll=1.742
+[19:04:56] vqa/correct: acc=0.555 nll=1.405
+[19:05:08] vqa/complementary: acc=0.272 nll=2.832
+[19:05:21] vqa/mismatched: acc=0.308 nll=2.652
+[19:05:26] vqa/noimage: acc=0.249 nll=2.755
+[19:05:27] task2 main final: {'grounding': {'correct': 0.7265625, 'complementary': 0.09375, 'mismatched': 0.328125, 'noimage': 0.328125}, 'vqa': {'correct': 0.5552083333333333, 'complementary': 0.27239583333333334, 'mismatched': 0.3083333333333333, 'noimage': 0.24947916666666667}}

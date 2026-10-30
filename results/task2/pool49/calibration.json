@@ -1,0 +1,9 @@
+{
+  "rule": "scale = mean||text token embedding|| (2,000 training captions/questions) / mean||connector output at init|| (256 training images)",
+  "text_embed_mean_norm": 0.8699440956115723,
+  "connector_mean_norm_unscaled": 11.453110694885254,
+  "scale": 0.07595701454278907,
+  "connector_mean_norm_scaled": 0.8699440360069275,
+  "n_text_tokens": 19099,
+  "n_images": 256
+}

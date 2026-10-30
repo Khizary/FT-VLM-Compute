@@ -1,0 +1,1154 @@
+[
+  {
+    "pair_id": "pres_val_28_395557_25430",
+    "type": "presence",
+    "category": "umbrella",
+    "question": "Does this image contain an umbrella?",
+    "sides": [
+      {
+        "image": "val:25430",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:395557",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_25_421822_190306",
+    "type": "presence",
+    "category": "giraffe",
+    "question": "Does this image contain a giraffe?",
+    "sides": [
+      {
+        "image": "val:421822",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:190306",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_64_255966_570680",
+    "type": "presence",
+    "category": "potted plant",
+    "question": "Does this image contain a potted plant?",
+    "sides": [
+      {
+        "image": "val:570680",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:255966",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_90_365385_468953",
+    "type": "presence",
+    "category": "toothbrush",
+    "question": "Does this image contain a toothbrush?",
+    "sides": [
+      {
+        "image": "val:365385",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:468953",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_2_482742_394801",
+    "type": "presence",
+    "category": "bicycle",
+    "question": "Does this image contain a bicycle?",
+    "sides": [
+      {
+        "image": "val:482742",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:394801",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_88_335081_454610",
+    "type": "presence",
+    "category": "teddy bear",
+    "question": "Does this image contain a teddy bear?",
+    "sides": [
+      {
+        "image": "val:454610",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:335081",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_79_332607_167781",
+    "type": "presence",
+    "category": "oven",
+    "question": "Does this image contain an oven?",
+    "sides": [
+      {
+        "image": "val:332607",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:167781",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_80_280857_559417",
+    "type": "presence",
+    "category": "toaster",
+    "question": "Does this image contain a toaster?",
+    "sides": [
+      {
+        "image": "val:559417",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:280857",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_11_193717_154431",
+    "type": "presence",
+    "category": "fire hydrant",
+    "question": "Does this image contain a fire hydrant?",
+    "sides": [
+      {
+        "image": "val:193717",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:154431",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_27_440562_504586",
+    "type": "presence",
+    "category": "backpack",
+    "question": "Does this image contain a backpack?",
+    "sides": [
+      {
+        "image": "val:504586",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:440562",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_74_270096_513219",
+    "type": "presence",
+    "category": "mouse",
+    "question": "Does this image contain a mouse?",
+    "sides": [
+      {
+        "image": "val:270096",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:513219",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_44_29838_262509",
+    "type": "presence",
+    "category": "bottle",
+    "question": "Does this image contain a bottle?",
+    "sides": [
+      {
+        "image": "val:29838",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:262509",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_78_124601_422221",
+    "type": "presence",
+    "category": "microwave",
+    "question": "Does this image contain a microwave?",
+    "sides": [
+      {
+        "image": "val:124601",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:422221",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_35_57535_482350",
+    "type": "presence",
+    "category": "skis",
+    "question": "Does this image contain skis?",
+    "sides": [
+      {
+        "image": "val:482350",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:57535",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_56_204830_46327",
+    "type": "presence",
+    "category": "broccoli",
+    "question": "Does this image contain broccoli?",
+    "sides": [
+      {
+        "image": "val:46327",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:204830",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_4_303768_467540",
+    "type": "presence",
+    "category": "motorcycle",
+    "question": "Does this image contain a motorcycle?",
+    "sides": [
+      {
+        "image": "val:467540",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:303768",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_46_397587_334509",
+    "type": "presence",
+    "category": "wine glass",
+    "question": "Does this image contain a wine glass?",
+    "sides": [
+      {
+        "image": "val:334509",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:397587",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_56_352900_238147",
+    "type": "presence",
+    "category": "broccoli",
+    "question": "Does this image contain broccoli?",
+    "sides": [
+      {
+        "image": "val:238147",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:352900",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_1_118690_53289",
+    "type": "presence",
+    "category": "person",
+    "question": "Does this image contain a person?",
+    "sides": [
+      {
+        "image": "val:53289",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:118690",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_32_418300_43734",
+    "type": "presence",
+    "category": "tie",
+    "question": "Does this image contain a tie?",
+    "sides": [
+      {
+        "image": "val:418300",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:43734",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_9_74499_259952",
+    "type": "presence",
+    "category": "boat",
+    "question": "Does this image contain a boat?",
+    "sides": [
+      {
+        "image": "val:259952",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:74499",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_60_514222_71929",
+    "type": "presence",
+    "category": "donut",
+    "question": "Does this image contain a donut?",
+    "sides": [
+      {
+        "image": "val:514222",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:71929",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_86_275429_559062",
+    "type": "presence",
+    "category": "vase",
+    "question": "Does this image contain a vase?",
+    "sides": [
+      {
+        "image": "val:559062",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:275429",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_16_505333_285361",
+    "type": "presence",
+    "category": "bird",
+    "question": "Does this image contain a bird?",
+    "sides": [
+      {
+        "image": "val:285361",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:505333",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_55_523100_41300",
+    "type": "presence",
+    "category": "orange",
+    "question": "Does this image contain an orange?",
+    "sides": [
+      {
+        "image": "val:523100",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:41300",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_9_65375_74920",
+    "type": "presence",
+    "category": "boat",
+    "question": "Does this image contain a boat?",
+    "sides": [
+      {
+        "image": "val:65375",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:74920",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_56_389381_254368",
+    "type": "presence",
+    "category": "broccoli",
+    "question": "Does this image contain broccoli?",
+    "sides": [
+      {
+        "image": "val:254368",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:389381",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_38_504702_1590",
+    "type": "presence",
+    "category": "kite",
+    "question": "Does this image contain a kite?",
+    "sides": [
+      {
+        "image": "val:1590",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:504702",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_17_479586_303926",
+    "type": "presence",
+    "category": "cat",
+    "question": "Does this image contain a cat?",
+    "sides": [
+      {
+        "image": "val:479586",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:303926",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_20_550422_365191",
+    "type": "presence",
+    "category": "sheep",
+    "question": "Does this image contain a sheep?",
+    "sides": [
+      {
+        "image": "val:365191",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:550422",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_28_157214_205863",
+    "type": "presence",
+    "category": "umbrella",
+    "question": "Does this image contain an umbrella?",
+    "sides": [
+      {
+        "image": "val:205863",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:157214",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_41_244151_196192",
+    "type": "presence",
+    "category": "skateboard",
+    "question": "Does this image contain a skateboard?",
+    "sides": [
+      {
+        "image": "val:244151",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:196192",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_85_244111_53952",
+    "type": "counting",
+    "category": "clock",
+    "question": "How many clocks can you see?",
+    "sides": [
+      {
+        "image": "val:244111",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:53952",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_25_62353_577712",
+    "type": "counting",
+    "category": "giraffe",
+    "question": "How many giraffes can you see?",
+    "sides": [
+      {
+        "image": "val:62353",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:577712",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_60_312682_256814",
+    "type": "counting",
+    "category": "donut",
+    "question": "How many donuts can you see?",
+    "sides": [
+      {
+        "image": "val:312682",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:256814",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_76_244613_325838",
+    "type": "counting",
+    "category": "keyboard",
+    "question": "How many keyboards can you see?",
+    "sides": [
+      {
+        "image": "val:244613",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:325838",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_22_14990_77548",
+    "type": "counting",
+    "category": "elephant",
+    "question": "How many elephants can you see?",
+    "sides": [
+      {
+        "image": "val:14990",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:77548",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_53_116845_486232",
+    "type": "counting",
+    "category": "apple",
+    "question": "How many apples can you see?",
+    "sides": [
+      {
+        "image": "val:116845",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:486232",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_50_136021_443949",
+    "type": "counting",
+    "category": "spoon",
+    "question": "How many spoons can you see?",
+    "sides": [
+      {
+        "image": "val:136021",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:443949",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_86_407403_536990",
+    "type": "counting",
+    "category": "vase",
+    "question": "How many vases can you see?",
+    "sides": [
+      {
+        "image": "val:407403",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:536990",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_78_109976_54959",
+    "type": "counting",
+    "category": "microwave",
+    "question": "How many microwaves can you see?",
+    "sides": [
+      {
+        "image": "val:109976",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:54959",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_20_158548_237881",
+    "type": "counting",
+    "category": "sheep",
+    "question": "How many sheep can you see?",
+    "sides": [
+      {
+        "image": "val:158548",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:237881",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_27_210564_431954",
+    "type": "counting",
+    "category": "backpack",
+    "question": "How many backpacks can you see?",
+    "sides": [
+      {
+        "image": "val:210564",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:431954",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_56_557059_99647",
+    "type": "counting",
+    "category": "broccoli",
+    "question": "How many broccoli can you see?",
+    "sides": [
+      {
+        "image": "val:557059",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:99647",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_81_151651_176120",
+    "type": "counting",
+    "category": "sink",
+    "question": "How many sinks can you see?",
+    "sides": [
+      {
+        "image": "val:151651",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:176120",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_62_59000_254392",
+    "type": "counting",
+    "category": "chair",
+    "question": "How many chairs can you see?",
+    "sides": [
+      {
+        "image": "val:59000",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:254392",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_72_369309_449963",
+    "type": "counting",
+    "category": "tv",
+    "question": "How many tvs can you see?",
+    "sides": [
+      {
+        "image": "val:369309",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:449963",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_88_445267_50844",
+    "type": "counting",
+    "category": "teddy bear",
+    "question": "How many teddy bears can you see?",
+    "sides": [
+      {
+        "image": "val:445267",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:50844",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_59_303647_551129",
+    "type": "counting",
+    "category": "pizza",
+    "question": "How many pizzas can you see?",
+    "sides": [
+      {
+        "image": "val:303647",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:551129",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_80_514294_106351",
+    "type": "counting",
+    "category": "toaster",
+    "question": "How many toasters can you see?",
+    "sides": [
+      {
+        "image": "val:514294",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:106351",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_19_324291_324082",
+    "type": "counting",
+    "category": "horse",
+    "question": "How many horses can you see?",
+    "sides": [
+      {
+        "image": "val:324291",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:324082",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_35_403736_228580",
+    "type": "counting",
+    "category": "skis",
+    "question": "How many skis can you see?",
+    "sides": [
+      {
+        "image": "val:403736",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:228580",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_28_339845_97502",
+    "type": "counting",
+    "category": "umbrella",
+    "question": "How many umbrellas can you see?",
+    "sides": [
+      {
+        "image": "val:339845",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:97502",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_41_458861_450559",
+    "type": "counting",
+    "category": "skateboard",
+    "question": "How many skateboards can you see?",
+    "sides": [
+      {
+        "image": "val:458861",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:450559",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_77_197756_204661",
+    "type": "counting",
+    "category": "cell phone",
+    "question": "How many cell phones can you see?",
+    "sides": [
+      {
+        "image": "val:197756",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:204661",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_1_111806_310479",
+    "type": "counting",
+    "category": "person",
+    "question": "How many people can you see?",
+    "sides": [
+      {
+        "image": "val:111806",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:310479",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_35_172935_425790",
+    "type": "counting",
+    "category": "skis",
+    "question": "How many skis can you see?",
+    "sides": [
+      {
+        "image": "val:172935",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:425790",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_64_32907_112269",
+    "type": "counting",
+    "category": "potted plant",
+    "question": "How many potted plants can you see?",
+    "sides": [
+      {
+        "image": "val:32907",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:112269",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_24_376278_569931",
+    "type": "counting",
+    "category": "zebra",
+    "question": "How many zebras can you see?",
+    "sides": [
+      {
+        "image": "val:376278",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:569931",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_49_317357_57194",
+    "type": "counting",
+    "category": "knife",
+    "question": "How many knives can you see?",
+    "sides": [
+      {
+        "image": "val:317357",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:57194",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_4_370657_322604",
+    "type": "counting",
+    "category": "motorcycle",
+    "question": "How many motorcycles can you see?",
+    "sides": [
+      {
+        "image": "val:370657",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:322604",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_24_403950_17115",
+    "type": "counting",
+    "category": "zebra",
+    "question": "How many zebras can you see?",
+    "sides": [
+      {
+        "image": "val:403950",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:17115",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_5_396903_131386",
+    "type": "counting",
+    "category": "airplane",
+    "question": "How many airplanes can you see?",
+    "sides": [
+      {
+        "image": "val:396903",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:131386",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_11_28993_19079",
+    "type": "counting",
+    "category": "fire hydrant",
+    "question": "How many fire hydrants can you see?",
+    "sides": [
+      {
+        "image": "val:28993",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:19079",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  }
+]

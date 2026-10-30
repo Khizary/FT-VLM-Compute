@@ -1,0 +1,453 @@
+{
+ "rule": "selection rule (fixed, no cherry-picking): within each suite, test pairs in file order; take the first k pairs\nin each category: (A) both sides right with the correct image and both swapped predictions follow the partner;\n(B) the prediction is identical under both images (language-prior behaviour); (C) correct-image error.",
+ "examples": {
+  "grounding": {
+   "A_follows_image": {
+    "count": 38,
+    "pairs": [
+     {
+      "pair_id": "pres_val_28_395557_25430",
+      "question": "Does this image contain an umbrella?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:25430",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:395557",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     },
+     {
+      "pair_id": "pres_val_25_421822_190306",
+      "question": "Does this image contain a giraffe?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:421822",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       },
+       {
+        "image": "val:190306",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       }
+      ]
+     },
+     {
+      "pair_id": "pres_val_64_255966_570680",
+      "question": "Does this image contain a potted plant?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:570680",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:255966",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     }
+    ]
+   },
+   "B_ignores_image": {
+    "count": 9,
+    "pairs": [
+     {
+      "pair_id": "pres_val_27_440562_504586",
+      "question": "Does this image contain a backpack?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:504586",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:440562",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     },
+     {
+      "pair_id": "pres_val_44_29838_262509",
+      "question": "Does this image contain a bottle?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:29838",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:262509",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     },
+     {
+      "pair_id": "pres_val_46_397587_334509",
+      "question": "Does this image contain a wine glass?",
+      "type": "presence",
+      "sides": [
+       {
+        "image": "val:334509",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:397587",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "yes",
+        "pred_no_image": "yes"
+       }
+      ]
+     }
+    ]
+   },
+   "C_correct_image_error": {
+    "count": 17,
+    "pairs": [
+     {
+      "pair_id": "cnt_val_85_244111_53952",
+      "question": "How many clocks can you see?",
+      "type": "counting",
+      "sides": [
+       {
+        "image": "val:244111",
+        "reference": "3",
+        "pred_correct_image": "3",
+        "pred_partner_image": "2",
+        "pred_mismatched": "0",
+        "pred_no_image": "1"
+       },
+       {
+        "image": "val:53952",
+        "reference": "1",
+        "pred_correct_image": "2",
+        "pred_partner_image": "3",
+        "pred_mismatched": "1",
+        "pred_no_image": "1"
+       }
+      ]
+     },
+     {
+      "pair_id": "cnt_val_50_136021_443949",
+      "question": "How many spoons can you see?",
+      "type": "counting",
+      "sides": [
+       {
+        "image": "val:136021",
+        "reference": "1",
+        "pred_correct_image": "4",
+        "pred_partner_image": "2",
+        "pred_mismatched": "1",
+        "pred_no_image": "1"
+       },
+       {
+        "image": "val:443949",
+        "reference": "3",
+        "pred_correct_image": "2",
+        "pred_partner_image": "4",
+        "pred_mismatched": "1",
+        "pred_no_image": "1"
+       }
+      ]
+     },
+     {
+      "pair_id": "cnt_val_20_158548_237881",
+      "question": "How many sheep can you see?",
+      "type": "counting",
+      "sides": [
+       {
+        "image": "val:158548",
+        "reference": "1",
+        "pred_correct_image": "0",
+        "pred_partner_image": "4",
+        "pred_mismatched": "0",
+        "pred_no_image": "sheep"
+       },
+       {
+        "image": "val:237881",
+        "reference": "3",
+        "pred_correct_image": "4",
+        "pred_partner_image": "0",
+        "pred_mismatched": "0",
+        "pred_no_image": "sheep"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "vqa": {
+   "A_follows_image": {
+    "count": 28,
+    "pairs": [
+     {
+      "pair_id": "vqa_val_12153020_245460017",
+      "question": "Is the child wearing a bib?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:12153",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       },
+       {
+        "image": "val:245460",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_345389009_574769001",
+      "question": "Are there any oranges on the counter?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:574769",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       },
+       {
+        "image": "val:345389",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_42147001_348881002",
+      "question": "Is the airplane flying?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:348881",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:42147",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     }
+    ]
+   },
+   "B_ignores_image": {
+    "count": 45,
+    "pairs": [
+     {
+      "pair_id": "vqa_val_386204064_403515007",
+      "question": "Does the girl have boots on?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:403515",
+        "reference": "yes",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       },
+       {
+        "image": "val:386204",
+        "reference": "no",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "no"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_1369003_486079003",
+      "question": "Does the man have long hair?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:486079",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "long"
+       },
+       {
+        "image": "val:1369",
+        "reference": "no",
+        "pred_correct_image": "no",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "long"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_117543006_160529002",
+      "question": "How many engines are on the plane?",
+      "type": "number",
+      "sides": [
+       {
+        "image": "val:160529",
+        "reference": "2",
+        "pred_correct_image": "2",
+        "pred_partner_image": "2",
+        "pred_mismatched": "0",
+        "pred_no_image": "1"
+       },
+       {
+        "image": "val:117543",
+        "reference": "4",
+        "pred_correct_image": "2",
+        "pred_partner_image": "2",
+        "pred_mismatched": "0",
+        "pred_no_image": "1"
+       }
+      ]
+     }
+    ]
+   },
+   "C_correct_image_error": {
+    "count": 23,
+    "pairs": [
+     {
+      "pair_id": "vqa_val_291686001_389256002",
+      "question": "What color is the bowl?",
+      "type": "other",
+      "sides": [
+       {
+        "image": "val:291686",
+        "reference": "white",
+        "pred_correct_image": "brown",
+        "pred_partner_image": "blue",
+        "pred_mismatched": "white",
+        "pred_no_image": "red"
+       },
+       {
+        "image": "val:389256",
+        "reference": "blue",
+        "pred_correct_image": "blue",
+        "pred_partner_image": "brown",
+        "pred_mismatched": "blue",
+        "pred_no_image": "red"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_177149000_528136028",
+      "question": "Are there stickers on the back of the truck?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:177149",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:528136",
+        "reference": "no",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     },
+     {
+      "pair_id": "vqa_val_310796001_574666000",
+      "question": "Are these the right shoes for skating?",
+      "type": "yes/no",
+      "sides": [
+       {
+        "image": "val:574666",
+        "reference": "no",
+        "pred_correct_image": "yes",
+        "pred_partner_image": "no",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       },
+       {
+        "image": "val:310796",
+        "reference": "yes",
+        "pred_correct_image": "no",
+        "pred_partner_image": "yes",
+        "pred_mismatched": "no",
+        "pred_no_image": "yes"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

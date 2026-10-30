@@ -1,0 +1,54 @@
+{
+  "seed": 6304,
+  "rules": {
+    "presence_min_area_frac": 0.01,
+    "count_min_area_frac": 0.005,
+    "count_range": [
+      1,
+      4
+    ],
+    "negatives": "image has >=1 annotation and none of the category",
+    "vqa": ">=8/10 normalised agreement on both sides, different consensus, same question and answer type"
+  },
+  "vqa_eligible": {
+    "train": {
+      "low_agreement": 121255,
+      "same_consensus": 7086,
+      "eligible": 71969,
+      "type_or_question_mismatch": 84
+    },
+    "val": {
+      "eligible": 33925,
+      "low_agreement": 57777,
+      "same_consensus": 3378,
+      "type_or_question_mismatch": 64
+    }
+  },
+  "isolation": {
+    "eval_image_counts": {
+      "cap_dev": 96,
+      "g_dev": 48,
+      "g_test": 128,
+      "v_dev": 64,
+      "v_test": 192
+    },
+    "train_images": 8733,
+    "eval_sets_pairwise_disjoint": true,
+    "eval_in_train": 0
+  },
+  "counts": {
+    "captions_train": 18000,
+    "captions_dev": 96,
+    "grounding_train_pool": 6000,
+    "grounding_dev": 24,
+    "grounding_test": 64,
+    "vqa_train": 1536,
+    "vqa_dev": 32,
+    "vqa_test": 96
+  },
+  "pool_type_counts": {
+    "presence": 4000,
+    "counting": 2000
+  },
+  "time_s": 393.6531970500946
+}

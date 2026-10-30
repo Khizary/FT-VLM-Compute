@@ -1,0 +1,203 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[19:33:43] calibration: {'rule': 'scale = mean||text token embedding|| (2,000 training captions/questions) / mean||connector output at init|| (256 training images)', 'text_embed_mean_norm': 0.8699440956115723, 'connector_mean_norm_unscaled': 11.453110694885254, 'scale': 0.07595701454278907, 'connector_mean_norm_scaled': 0.8699440360069275, 'n_text_tokens': 19099, 'n_images': 256}
+[19:33:46] dev @0: {'caption_loss': 4.665537677705288, 'caption_nll_noterm': 4.93909094731013, 'grounding_dev': {'nll_correct': 5.487176729987065, 'nll_complementary': 5.703973598778248, 'nll_noimage': 4.622990496456623, 'swap_penalty': 0.21679686879118285, 'noimage_penalty': -0.8641862335304419, 'counting_nll_correct': 5.1605361476540565, 'counting_swap_penalty': 0.24316409478584924, 'presence_nll_correct': 5.813817312320073, 'presence_swap_penalty': 0.19042964279651642}, 'vqa_dev': {'nll_correct': 5.549009067006409, 'nll_complementary': 5.647922402713448, 'nll_noimage': 4.869162075105123, 'swap_penalty': 0.09891333570703864, 'noimage_penalty': -0.679846991901286, 'number_nll_correct': 4.318844512104988, 'number_swap_penalty': 0.04980466514825821, 'other_nll_correct': 5.354925128320853, 'other_swap_penalty': 0.24456321075558662, 'yes/no_nll_correct': 6.5632027089595795, 'yes/no_swap_penalty': -0.013997425635655722}}
+[19:33:46] stage 1 caption_alignment: trainable 1,837,056
+/kaggle/working/pa3/task2_vlm/train.py:298: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  tot += float(loss)
+/kaggle/working/pa3/task2_vlm/train.py:313: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+[19:33:58] task2 pool49 g=25/4500 [caption_alignment] loss=4.1219 gn=7.79 0.46s/update mem=1.4GB
+[19:34:10] task2 pool49 g=50/4500 [caption_alignment] loss=3.3760 gn=2.97 0.51s/update mem=1.4GB
+[19:34:22] task2 pool49 g=75/4500 [caption_alignment] loss=2.6617 gn=1.83 0.46s/update mem=1.4GB
+[19:34:34] task2 pool49 g=100/4500 [caption_alignment] loss=3.0839 gn=1.97 0.47s/update mem=1.4GB
+[19:34:46] task2 pool49 g=125/4500 [caption_alignment] loss=2.9703 gn=1.61 0.46s/update mem=1.4GB
+[19:34:58] task2 pool49 g=150/4500 [caption_alignment] loss=2.9751 gn=1.13 0.47s/update mem=1.5GB
+[19:35:09] task2 pool49 g=175/4500 [caption_alignment] loss=2.9514 gn=1.11 0.47s/update mem=1.5GB
+[19:35:21] task2 pool49 g=200/4500 [caption_alignment] loss=2.7825 gn=1.16 0.47s/update mem=1.5GB
+[19:35:33] task2 pool49 g=225/4500 [caption_alignment] loss=2.9872 gn=1.40 0.47s/update mem=1.5GB
+[19:35:45] task2 pool49 g=250/4500 [caption_alignment] loss=2.8715 gn=1.00 0.47s/update mem=1.5GB
+[19:35:57] task2 pool49 g=275/4500 [caption_alignment] loss=2.9282 gn=1.33 0.46s/update mem=1.5GB
+[19:36:09] task2 pool49 g=300/4500 [caption_alignment] loss=2.7529 gn=0.94 0.46s/update mem=1.5GB
+[19:36:20] task2 pool49 g=325/4500 [caption_alignment] loss=2.1518 gn=0.93 0.49s/update mem=1.5GB
+[19:36:32] task2 pool49 g=350/4500 [caption_alignment] loss=2.8784 gn=1.14 0.46s/update mem=1.5GB
+[19:36:44] task2 pool49 g=375/4500 [caption_alignment] loss=2.7119 gn=0.90 0.48s/update mem=1.5GB
+[19:36:56] task2 pool49 g=400/4500 [caption_alignment] loss=2.7316 gn=0.78 0.46s/update mem=1.5GB
+[19:37:08] task2 pool49 g=425/4500 [caption_alignment] loss=2.8113 gn=0.91 0.49s/update mem=1.5GB
+[19:37:20] task2 pool49 g=450/4500 [caption_alignment] loss=2.2126 gn=0.69 0.68s/update mem=1.5GB
+[19:37:32] task2 pool49 g=475/4500 [caption_alignment] loss=2.7938 gn=0.89 0.46s/update mem=1.5GB
+[19:37:43] task2 pool49 g=500/4500 [caption_alignment] loss=2.9626 gn=0.79 0.46s/update mem=1.5GB
+[19:37:46] dev @500: caption 2.539 | grounding swap 0.584 | vqa swap 0.476
+[19:37:58] task2 pool49 g=525/4500 [caption_alignment] loss=2.4722 gn=1.02 0.46s/update mem=1.5GB
+[19:38:10] task2 pool49 g=550/4500 [caption_alignment] loss=2.6258 gn=0.80 0.51s/update mem=1.5GB
+[19:38:22] task2 pool49 g=575/4500 [caption_alignment] loss=2.7676 gn=0.77 0.46s/update mem=1.5GB
+[19:38:34] task2 pool49 g=600/4500 [caption_alignment] loss=2.5319 gn=0.76 0.47s/update mem=1.5GB
+[19:38:46] task2 pool49 g=625/4500 [caption_alignment] loss=2.3750 gn=0.74 0.47s/update mem=1.5GB
+[19:38:57] task2 pool49 g=650/4500 [caption_alignment] loss=2.5993 gn=0.82 0.47s/update mem=1.5GB
+[19:39:09] task2 pool49 g=675/4500 [caption_alignment] loss=2.7929 gn=0.86 0.47s/update mem=1.5GB
+[19:39:21] task2 pool49 g=700/4500 [caption_alignment] loss=2.6070 gn=0.72 0.47s/update mem=1.5GB
+[19:39:33] task2 pool49 g=725/4500 [caption_alignment] loss=2.2936 gn=0.68 0.47s/update mem=1.5GB
+[19:39:45] task2 pool49 g=750/4500 [caption_alignment] loss=2.3134 gn=0.62 0.53s/update mem=1.5GB
+[19:39:57] task2 pool49 g=775/4500 [caption_alignment] loss=2.5415 gn=0.76 0.47s/update mem=1.5GB
+[19:40:09] task2 pool49 g=800/4500 [caption_alignment] loss=2.3307 gn=0.77 0.48s/update mem=1.5GB
+[19:40:21] task2 pool49 g=825/4500 [caption_alignment] loss=2.2808 gn=0.74 0.47s/update mem=1.5GB
+[19:40:33] task2 pool49 g=850/4500 [caption_alignment] loss=2.4945 gn=0.76 0.49s/update mem=1.5GB
+[19:40:45] task2 pool49 g=875/4500 [caption_alignment] loss=2.4973 gn=0.74 0.47s/update mem=1.5GB
+[19:40:56] task2 pool49 g=900/4500 [caption_alignment] loss=2.7297 gn=0.77 0.47s/update mem=1.5GB
+[19:41:08] task2 pool49 g=925/4500 [caption_alignment] loss=2.5810 gn=0.68 0.47s/update mem=1.5GB
+[19:41:20] task2 pool49 g=950/4500 [caption_alignment] loss=2.6186 gn=0.82 0.50s/update mem=1.5GB
+[19:41:32] task2 pool49 g=975/4500 [caption_alignment] loss=2.4215 gn=0.65 0.46s/update mem=1.5GB
+[19:41:44] task2 pool49 g=1000/4500 [caption_alignment] loss=2.2866 gn=0.87 0.47s/update mem=1.5GB
+[19:41:47] dev @1000: caption 2.421 | grounding swap 0.773 | vqa swap 0.611
+[19:41:59] task2 pool49 g=1025/4500 [caption_alignment] loss=2.1762 gn=0.76 0.47s/update mem=1.5GB
+[19:42:10] task2 pool49 g=1050/4500 [caption_alignment] loss=2.4596 gn=0.75 0.50s/update mem=1.5GB
+[19:42:22] task2 pool49 g=1075/4500 [caption_alignment] loss=2.7732 gn=0.77 0.49s/update mem=1.5GB
+[19:42:34] task2 pool49 g=1100/4500 [caption_alignment] loss=2.1790 gn=0.79 0.47s/update mem=1.5GB
+[19:42:46] task2 pool49 g=1125/4500 [caption_alignment] loss=2.5728 gn=0.75 0.47s/update mem=1.5GB
+[19:42:58] task2 pool49 g=1150/4500 [caption_alignment] loss=2.1545 gn=0.85 0.47s/update mem=1.5GB
+[19:43:10] task2 pool49 g=1175/4500 [caption_alignment] loss=2.2841 gn=0.71 0.49s/update mem=1.5GB
+[19:43:22] task2 pool49 g=1200/4500 [caption_alignment] loss=2.5200 gn=0.79 0.47s/update mem=1.5GB
+[19:43:34] task2 pool49 g=1225/4500 [caption_alignment] loss=2.3581 gn=0.71 0.46s/update mem=1.5GB
+[19:43:45] task2 pool49 g=1250/4500 [caption_alignment] loss=2.0762 gn=0.67 0.47s/update mem=1.5GB
+[19:43:57] task2 pool49 g=1275/4500 [caption_alignment] loss=2.6918 gn=0.79 0.47s/update mem=1.5GB
+[19:44:09] task2 pool49 g=1300/4500 [caption_alignment] loss=1.8433 gn=0.70 0.47s/update mem=1.5GB
+[19:44:21] task2 pool49 g=1325/4500 [caption_alignment] loss=1.9293 gn=0.74 0.46s/update mem=1.5GB
+[19:44:33] task2 pool49 g=1350/4500 [caption_alignment] loss=2.3124 gn=0.87 0.47s/update mem=1.5GB
+[19:44:45] task2 pool49 g=1375/4500 [caption_alignment] loss=2.1507 gn=0.74 0.48s/update mem=1.5GB
+[19:44:57] task2 pool49 g=1400/4500 [caption_alignment] loss=2.3485 gn=0.81 0.46s/update mem=1.5GB
+[19:45:09] task2 pool49 g=1425/4500 [caption_alignment] loss=2.1416 gn=0.77 0.46s/update mem=1.5GB
+[19:45:21] task2 pool49 g=1450/4500 [caption_alignment] loss=2.2473 gn=0.91 0.47s/update mem=1.5GB
+[19:45:33] task2 pool49 g=1475/4500 [caption_alignment] loss=2.5385 gn=0.88 0.48s/update mem=1.5GB
+[19:45:44] task2 pool49 g=1500/4500 [caption_alignment] loss=2.2346 gn=0.85 0.47s/update mem=1.5GB
+[19:45:47] dev @1500: caption 2.380 | grounding swap 0.674 | vqa swap 0.517
+[19:45:59] task2 pool49 g=1525/4500 [caption_alignment] loss=2.2967 gn=0.85 0.46s/update mem=1.5GB
+[19:46:11] task2 pool49 g=1550/4500 [caption_alignment] loss=2.4673 gn=0.78 0.49s/update mem=1.5GB
+[19:46:23] task2 pool49 g=1575/4500 [caption_alignment] loss=2.7138 gn=0.87 0.47s/update mem=1.5GB
+[19:46:35] task2 pool49 g=1600/4500 [caption_alignment] loss=2.4037 gn=0.95 0.47s/update mem=1.5GB
+[19:46:47] task2 pool49 g=1625/4500 [caption_alignment] loss=2.0599 gn=0.79 0.46s/update mem=1.5GB
+[19:46:59] task2 pool49 g=1650/4500 [caption_alignment] loss=2.4877 gn=0.93 0.47s/update mem=1.5GB
+[19:47:11] task2 pool49 g=1675/4500 [caption_alignment] loss=2.3771 gn=0.80 0.47s/update mem=1.5GB
+[19:47:23] task2 pool49 g=1700/4500 [caption_alignment] loss=2.6861 gn=0.88 0.47s/update mem=1.5GB
+[19:47:35] task2 pool49 g=1725/4500 [caption_alignment] loss=2.0197 gn=0.92 0.47s/update mem=1.5GB
+[19:47:46] task2 pool49 g=1750/4500 [caption_alignment] loss=2.3660 gn=0.85 0.47s/update mem=1.5GB
+[19:47:58] task2 pool49 g=1775/4500 [caption_alignment] loss=2.0423 gn=0.84 0.47s/update mem=1.5GB
+[19:48:10] task2 pool49 g=1800/4500 [caption_alignment] loss=2.3653 gn=0.70 0.52s/update mem=1.5GB
+[19:48:22] task2 pool49 g=1825/4500 [caption_alignment] loss=2.3626 gn=0.84 0.48s/update mem=1.5GB
+[19:48:34] task2 pool49 g=1850/4500 [caption_alignment] loss=1.9595 gn=0.82 0.46s/update mem=1.5GB
+[19:48:46] task2 pool49 g=1875/4500 [caption_alignment] loss=2.1750 gn=0.80 0.47s/update mem=1.5GB
+[19:48:57] task2 pool49 g=1900/4500 [caption_alignment] loss=2.5563 gn=0.88 0.47s/update mem=1.5GB
+[19:49:09] task2 pool49 g=1925/4500 [caption_alignment] loss=2.3683 gn=0.80 0.46s/update mem=1.5GB
+[19:49:21] task2 pool49 g=1950/4500 [caption_alignment] loss=2.2876 gn=0.83 0.46s/update mem=1.5GB
+[19:49:33] task2 pool49 g=1975/4500 [caption_alignment] loss=2.2314 gn=0.88 0.46s/update mem=1.5GB
+[19:49:45] task2 pool49 g=2000/4500 [caption_alignment] loss=2.5162 gn=0.89 0.47s/update mem=1.5GB
+[19:49:48] dev @2000: caption 2.353 | grounding swap 0.773 | vqa swap 0.520
+[19:50:00] task2 pool49 g=2025/4500 [caption_alignment] loss=2.5141 gn=0.93 0.47s/update mem=1.5GB
+[19:50:12] task2 pool49 g=2050/4500 [caption_alignment] loss=2.3656 gn=0.88 0.46s/update mem=1.5GB
+[19:50:24] task2 pool49 g=2075/4500 [caption_alignment] loss=2.3090 gn=0.87 0.47s/update mem=1.5GB
+[19:50:35] task2 pool49 g=2100/4500 [caption_alignment] loss=2.2972 gn=0.94 0.47s/update mem=1.5GB
+[19:50:47] task2 pool49 g=2125/4500 [caption_alignment] loss=2.3698 gn=0.94 0.47s/update mem=1.5GB
+[19:50:59] task2 pool49 g=2150/4500 [caption_alignment] loss=1.8317 gn=0.90 0.46s/update mem=1.5GB
+[19:51:11] task2 pool49 g=2175/4500 [caption_alignment] loss=2.2636 gn=0.85 0.46s/update mem=1.5GB
+[19:51:23] task2 pool49 g=2200/4500 [caption_alignment] loss=2.0893 gn=0.78 0.47s/update mem=1.5GB
+[19:51:34] task2 pool49 g=2225/4500 [caption_alignment] loss=2.1899 gn=0.93 0.46s/update mem=1.5GB
+[19:51:46] task2 pool49 g=2250/4500 [caption_alignment] loss=2.1451 gn=0.93 0.47s/update mem=1.5GB
+[19:51:49] dev @2250: caption 2.348 | grounding swap 0.844 | vqa swap 0.538
+[19:51:49] stage 2 visual_instruction: trainable 6,424,576
+[19:52:07] task2 pool49 g=2275/4500 [visual_instruction] loss=0.4425 gn=8.63 0.69s/update mem=1.5GB
+[19:52:25] task2 pool49 g=2300/4500 [visual_instruction] loss=1.2301 gn=13.81 0.71s/update mem=1.5GB
+[19:52:42] task2 pool49 g=2325/4500 [visual_instruction] loss=0.7827 gn=4.10 0.69s/update mem=1.5GB
+[19:53:00] task2 pool49 g=2350/4500 [visual_instruction] loss=0.3649 gn=2.97 0.72s/update mem=1.5GB
+[19:53:17] task2 pool49 g=2375/4500 [visual_instruction] loss=0.4712 gn=4.97 0.69s/update mem=1.5GB
+[19:53:35] task2 pool49 g=2400/4500 [visual_instruction] loss=0.8170 gn=2.77 0.71s/update mem=1.5GB
+[19:53:53] task2 pool49 g=2425/4500 [visual_instruction] loss=0.2881 gn=7.91 0.70s/update mem=1.5GB
+[19:54:10] task2 pool49 g=2450/4500 [visual_instruction] loss=0.6871 gn=6.50 0.76s/update mem=1.5GB
+[19:54:28] task2 pool49 g=2475/4500 [visual_instruction] loss=0.8514 gn=3.52 0.69s/update mem=1.5GB
+[19:54:46] task2 pool49 g=2500/4500 [visual_instruction] loss=1.3125 gn=2.83 0.70s/update mem=1.5GB
+[19:54:49] dev @2500: caption 2.364 | grounding swap 3.132 | vqa swap 0.702
+[19:55:07] task2 pool49 g=2525/4500 [visual_instruction] loss=0.5970 gn=7.56 0.72s/update mem=1.5GB
+[19:55:25] task2 pool49 g=2550/4500 [visual_instruction] loss=0.4072 gn=3.82 0.69s/update mem=1.5GB
+[19:55:42] task2 pool49 g=2575/4500 [visual_instruction] loss=0.7728 gn=5.87 0.68s/update mem=1.5GB
+[19:55:59] task2 pool49 g=2600/4500 [visual_instruction] loss=0.6971 gn=5.55 0.69s/update mem=1.5GB
+[19:56:17] task2 pool49 g=2625/4500 [visual_instruction] loss=0.3956 gn=11.02 0.70s/update mem=1.5GB
+[19:56:35] task2 pool49 g=2650/4500 [visual_instruction] loss=0.8465 gn=5.79 0.69s/update mem=1.5GB
+[19:56:52] task2 pool49 g=2675/4500 [visual_instruction] loss=0.6592 gn=2.28 0.71s/update mem=1.5GB
+[19:57:10] task2 pool49 g=2700/4500 [visual_instruction] loss=1.3139 gn=9.10 0.70s/update mem=1.5GB
+[19:57:27] task2 pool49 g=2725/4500 [visual_instruction] loss=0.8769 gn=2.49 0.69s/update mem=1.5GB
+[19:57:45] task2 pool49 g=2750/4500 [visual_instruction] loss=1.0835 gn=6.09 0.69s/update mem=1.5GB
+[19:58:03] task2 pool49 g=2775/4500 [visual_instruction] loss=0.5499 gn=6.72 0.69s/update mem=1.5GB
+[19:58:20] task2 pool49 g=2800/4500 [visual_instruction] loss=0.7853 gn=4.18 0.75s/update mem=1.5GB
+[19:58:38] task2 pool49 g=2825/4500 [visual_instruction] loss=0.9183 gn=4.48 0.68s/update mem=1.5GB
+[19:58:55] task2 pool49 g=2850/4500 [visual_instruction] loss=0.5674 gn=7.58 0.69s/update mem=1.5GB
+[19:59:13] task2 pool49 g=2875/4500 [visual_instruction] loss=1.0506 gn=3.78 0.68s/update mem=1.5GB
+[19:59:30] task2 pool49 g=2900/4500 [visual_instruction] loss=0.9304 gn=1.76 0.72s/update mem=1.5GB
+[19:59:48] task2 pool49 g=2925/4500 [visual_instruction] loss=1.4333 gn=4.62 0.75s/update mem=1.5GB
+[20:00:06] task2 pool49 g=2950/4500 [visual_instruction] loss=0.8276 gn=2.42 0.68s/update mem=1.5GB
+[20:00:23] task2 pool49 g=2975/4500 [visual_instruction] loss=0.4663 gn=2.04 0.69s/update mem=1.5GB
+[20:00:40] task2 pool49 g=3000/4500 [visual_instruction] loss=0.6304 gn=2.00 0.72s/update mem=1.5GB
+[20:00:44] dev @3000: caption 2.346 | grounding swap 4.416 | vqa swap 0.947
+[20:01:02] task2 pool49 g=3025/4500 [visual_instruction] loss=0.9504 gn=7.67 0.71s/update mem=1.5GB
+[20:01:19] task2 pool49 g=3050/4500 [visual_instruction] loss=0.7862 gn=3.89 0.69s/update mem=1.5GB
+[20:01:37] task2 pool49 g=3075/4500 [visual_instruction] loss=0.5289 gn=8.64 0.68s/update mem=1.5GB
+[20:01:54] task2 pool49 g=3100/4500 [visual_instruction] loss=0.3125 gn=4.50 0.70s/update mem=1.5GB
+[20:02:12] task2 pool49 g=3125/4500 [visual_instruction] loss=0.0804 gn=3.98 0.70s/update mem=1.5GB
+[20:02:30] task2 pool49 g=3150/4500 [visual_instruction] loss=0.4579 gn=6.41 0.69s/update mem=1.5GB
+[20:02:47] task2 pool49 g=3175/4500 [visual_instruction] loss=0.8230 gn=1.85 0.69s/update mem=1.5GB
+[20:03:05] task2 pool49 g=3200/4500 [visual_instruction] loss=0.3058 gn=4.88 0.91s/update mem=1.5GB
+[20:03:22] task2 pool49 g=3225/4500 [visual_instruction] loss=0.4656 gn=2.18 0.69s/update mem=1.5GB
+[20:03:40] task2 pool49 g=3250/4500 [visual_instruction] loss=0.7579 gn=3.17 0.72s/update mem=1.5GB
+[20:03:58] task2 pool49 g=3275/4500 [visual_instruction] loss=0.8864 gn=2.68 0.69s/update mem=1.5GB
+[20:04:16] task2 pool49 g=3300/4500 [visual_instruction] loss=0.5489 gn=5.08 0.73s/update mem=1.5GB
+[20:04:33] task2 pool49 g=3325/4500 [visual_instruction] loss=0.6178 gn=6.95 0.69s/update mem=1.5GB
+[20:04:51] task2 pool49 g=3350/4500 [visual_instruction] loss=0.0822 gn=5.76 0.72s/update mem=1.5GB
+[20:05:09] task2 pool49 g=3375/4500 [visual_instruction] loss=0.7732 gn=2.33 0.68s/update mem=1.5GB
+[20:05:26] task2 pool49 g=3400/4500 [visual_instruction] loss=0.7071 gn=4.00 0.68s/update mem=1.5GB
+[20:05:44] task2 pool49 g=3425/4500 [visual_instruction] loss=0.5494 gn=4.18 0.69s/update mem=1.5GB
+[20:06:01] task2 pool49 g=3450/4500 [visual_instruction] loss=0.6368 gn=10.49 0.69s/update mem=1.5GB
+[20:06:19] task2 pool49 g=3475/4500 [visual_instruction] loss=1.0140 gn=10.79 0.69s/update mem=1.5GB
+[20:06:36] task2 pool49 g=3500/4500 [visual_instruction] loss=0.8407 gn=8.06 0.69s/update mem=1.5GB
+[20:06:40] dev @3500: caption 2.347 | grounding swap 4.532 | vqa swap 1.068
+[20:06:58] task2 pool49 g=3525/4500 [visual_instruction] loss=1.2798 gn=2.22 0.69s/update mem=1.5GB
+[20:07:15] task2 pool49 g=3550/4500 [visual_instruction] loss=0.2355 gn=2.10 0.70s/update mem=1.5GB
+[20:07:33] task2 pool49 g=3575/4500 [visual_instruction] loss=0.2920 gn=5.83 0.68s/update mem=1.5GB
+[20:07:50] task2 pool49 g=3600/4500 [visual_instruction] loss=0.3918 gn=3.84 0.72s/update mem=1.5GB
+[20:08:08] task2 pool49 g=3625/4500 [visual_instruction] loss=1.0762 gn=5.62 0.70s/update mem=1.5GB
+[20:08:25] task2 pool49 g=3650/4500 [visual_instruction] loss=0.6505 gn=6.01 0.69s/update mem=1.5GB
+[20:08:42] task2 pool49 g=3675/4500 [visual_instruction] loss=0.3900 gn=2.42 0.70s/update mem=1.5GB
+[20:09:00] task2 pool49 g=3700/4500 [visual_instruction] loss=0.8996 gn=3.13 0.73s/update mem=1.5GB
+[20:09:18] task2 pool49 g=3725/4500 [visual_instruction] loss=0.1384 gn=3.75 0.69s/update mem=1.5GB
+[20:09:35] task2 pool49 g=3750/4500 [visual_instruction] loss=0.7108 gn=4.69 0.68s/update mem=1.5GB
+[20:09:38] dev @3750: caption 2.344 | grounding swap 4.456 | vqa swap 1.023
+[20:09:39] stage 3 natural_vqa: trainable 6,424,576
+[20:09:56] task2 pool49 g=3775/4500 [natural_vqa] loss=1.2260 gn=6.01 0.68s/update mem=1.4GB
+[20:10:14] task2 pool49 g=3800/4500 [natural_vqa] loss=1.0642 gn=8.02 0.71s/update mem=1.4GB
+[20:10:31] task2 pool49 g=3825/4500 [natural_vqa] loss=1.0356 gn=6.47 0.68s/update mem=1.4GB
+[20:10:49] task2 pool49 g=3850/4500 [natural_vqa] loss=1.1617 gn=6.20 0.91s/update mem=1.4GB
+[20:11:06] task2 pool49 g=3875/4500 [natural_vqa] loss=0.8388 gn=5.32 0.69s/update mem=1.4GB
+[20:11:23] task2 pool49 g=3900/4500 [natural_vqa] loss=0.3345 gn=4.60 0.68s/update mem=1.4GB
+[20:11:41] task2 pool49 g=3925/4500 [natural_vqa] loss=0.3948 gn=3.18 0.68s/update mem=1.4GB
+[20:11:58] task2 pool49 g=3950/4500 [natural_vqa] loss=0.4191 gn=3.18 0.71s/update mem=1.4GB
+[20:12:16] task2 pool49 g=3975/4500 [natural_vqa] loss=0.3694 gn=2.14 0.69s/update mem=1.4GB
+[20:12:33] task2 pool49 g=4000/4500 [natural_vqa] loss=0.5599 gn=2.56 0.68s/update mem=1.4GB
+[20:12:37] dev @4000: caption 2.338 | grounding swap 2.249 | vqa swap 0.712
+[20:12:54] task2 pool49 g=4025/4500 [natural_vqa] loss=0.5626 gn=4.24 0.68s/update mem=1.5GB
+[20:13:12] task2 pool49 g=4050/4500 [natural_vqa] loss=0.3419 gn=3.02 0.69s/update mem=1.5GB
+[20:13:29] task2 pool49 g=4075/4500 [natural_vqa] loss=1.2504 gn=20.19 0.68s/update mem=1.5GB
+[20:13:46] task2 pool49 g=4100/4500 [natural_vqa] loss=0.4794 gn=5.08 0.69s/update mem=1.5GB
+[20:14:04] task2 pool49 g=4125/4500 [natural_vqa] loss=0.4572 gn=6.37 0.69s/update mem=1.5GB
+[20:14:22] task2 pool49 g=4150/4500 [natural_vqa] loss=0.9266 gn=10.48 0.69s/update mem=1.5GB
+[20:14:39] task2 pool49 g=4175/4500 [natural_vqa] loss=0.2861 gn=4.18 0.68s/update mem=1.5GB
+[20:14:56] task2 pool49 g=4200/4500 [natural_vqa] loss=0.6436 gn=4.80 0.69s/update mem=1.5GB
+[20:15:14] task2 pool49 g=4225/4500 [natural_vqa] loss=0.5713 gn=3.84 0.70s/update mem=1.5GB
+[20:15:32] task2 pool49 g=4250/4500 [natural_vqa] loss=0.2243 gn=2.83 0.69s/update mem=1.5GB
+[20:15:49] task2 pool49 g=4275/4500 [natural_vqa] loss=0.3003 gn=3.44 0.69s/update mem=1.5GB
+[20:16:07] task2 pool49 g=4300/4500 [natural_vqa] loss=1.1627 gn=5.73 0.69s/update mem=1.5GB
+[20:16:24] task2 pool49 g=4325/4500 [natural_vqa] loss=0.4010 gn=4.25 0.69s/update mem=1.5GB
+[20:16:42] task2 pool49 g=4350/4500 [natural_vqa] loss=0.7795 gn=4.48 0.69s/update mem=1.5GB
+[20:16:59] task2 pool49 g=4375/4500 [natural_vqa] loss=0.4165 gn=2.80 0.69s/update mem=1.5GB
+[20:17:17] task2 pool49 g=4400/4500 [natural_vqa] loss=0.3829 gn=5.44 0.69s/update mem=1.5GB
+[20:17:34] task2 pool49 g=4425/4500 [natural_vqa] loss=0.5360 gn=4.77 0.69s/update mem=1.5GB
+[20:17:52] task2 pool49 g=4450/4500 [natural_vqa] loss=0.8957 gn=8.44 0.69s/update mem=1.5GB
+[20:18:09] task2 pool49 g=4475/4500 [natural_vqa] loss=0.5913 gn=6.04 0.69s/update mem=1.5GB
+[20:18:27] task2 pool49 g=4500/4500 [natural_vqa] loss=0.7042 gn=4.94 0.88s/update mem=1.5GB
+[20:18:30] dev @4500: caption 2.337 | grounding swap 3.072 | vqa swap 0.817
+[20:18:31] task2 pool49 done: 0.73 h

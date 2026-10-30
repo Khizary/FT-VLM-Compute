@@ -1,0 +1,9 @@
+\toprule
+Method & Trainable params (M) & Train time (h) & s/update & Peak GPU mem (GB) & Recovery ckpt (GB) & Export (MB) & Skipped updates & Method overhead \\
+\midrule
+Full FT & 596.0 & 2.30 & 6.61 & 11.7 & 6.66 & 1173 & 0 & -- \\
+Full FT + L2-SP & 596.0 & 2.35 & 6.77 & 12.8 & 6.66 & 1173 & 0 & theta0 1.11 GB bf16, copy 0.36 s, penalty 3.6 min \\
+LoRA-4 & 2.5 & 2.56 & 7.38 & 3.1 & 0.03 & 19 & 0 & -- \\
+LoRA-16 & 10.1 & 2.62 & 7.55 & 3.3 & 0.11 & 77 & 0 & -- \\
+OPLoRA-16 & 10.1 & 3.30 & 9.51 & 3.6 & 0.11 & 77 & 0 & bases 308 MB, SVD 34 s, export 0.20 s \\
+\bottomrule

@@ -1,0 +1,51 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[17:20:27] live q0 test:943: single 411t/27s, parallel [398, 380, 402], refine 305t | gold 14 single=14 par=['14', '14', '14'] rev=14
+[17:22:39] live q1 test:2688: single 596t/31s, parallel [694, 518, 602], refine 108t | gold -1 single=-1 par=['\\frac{9}{16}', '-1', '-1'] rev=\frac{9}{16}
+[17:27:03] live q2 test:3504: single 966t/50s, parallel [1024, 1000, 1024], refine 986t | gold 216 single=216 par=[None, '216', None] rev=216
+[17:28:20] live q3 test:4335: single 287t/16s, parallel [288, 324, 305], refine 211t | gold 5040 single=5040 par=['5040', '5040', '5040'] rev=5040
+[17:34:07] live q4 test:2460: single 3072t/162s, parallel [935, 1024, 998], refine 793t | gold 154 single=None par=['45', None, '58'] rev=45
+[17:36:44] live q5 test:1324: single 438t/22s, parallel [673, 799, 691], refine 585t | gold \frac{3}{16} single=\frac{1}{2} par=['\\frac{3}{16}', '\\frac{1}{2}', '\\frac{1}{2}'] rev=\frac{3}{32}
+[17:40:08] live q6 test:2340: single 967t/48s, parallel [806, 874, 982], refine 494t | gold 6 single=6\sqrt[3]{2} par=['6', '6\\sqrt[3]{2}', '6'] rev=6
+[17:41:05] live q7 test:1577: single 207t/10s, parallel [219, 272, 210], refine 217t | gold 14 single=14 par=['14', '14', '14'] rev=14
+[17:42:42] live q8 test:639: single 699t/35s, parallel [325, 354, 305], refine 268t | gold -9 single=4 par=['-9', '-9', '-9'] rev=-9
+[17:47:48] live q9 test:2892: single 1813t/89s, parallel [1024, 979, 763], refine 1590t | gold -71 single=1 par=[None, '-391', '1'] rev=10
+[17:51:37] live q10 test:4702: single 318t/15s, parallel [1024, 538, 512], refine 2048t | gold 59 single=59 par=[None, '59', '-59'] rev=None
+[17:55:15] live q11 test:1709: single 862t/43s, parallel [935, 832, 812], refine 908t | gold 75 single=50 par=['62.5', '50', '25'] rev=62.5
+[17:56:17] live q12 test:4041: single 240t/12s, parallel [256, 242, 244], refine 236t | gold 56 single=56 par=['56', '56', '56'] rev=56
+[17:59:36] live q13 test:2119: single 952t/48s, parallel [694, 1024, 853], refine 435t | gold 28 single=21 par=['21', None, '21'] rev=21
+[18:02:02] live q14 test:2087: single 497t/25s, parallel [677, 546, 439], refine 682t | gold 7 single=7 par=['\\sqrt{91}', '-7', '3'] rev=\sqrt{91}
+[18:06:19] live q15 test:4549: single 840t/42s, parallel [1024, 1024, 1024], refine 1234t | gold 11 single=8 par=[None, None, None] rev=2
+[18:10:07] live q16 test:2732: single 1022t/51s, parallel [1024, 593, 899], refine 989t | gold \frac{266664}{5} single=44136.9667 par=[None, '53030.8', '53332.8'] rev=2222.2
+[18:11:31] live q17 test:1433: single 297t/15s, parallel [333, 336, 371], refine 320t | gold \frac{1}{4} single=\frac{1}{4} par=['\\frac{1}{4}', '\\frac{1}{4}', '\\frac{1}{4}'] rev=\frac{1}{4}
+[18:18:03] live q18 test:3285: single 3072t/163s, parallel [1024, 1024, 1024], refine 1437t | gold 0 single=None par=[None, None, None] rev=0
+[18:19:32] live q19 test:29: single 532t/27s, parallel [377, 339, 290], refine 240t | gold 16 single=16 par=['-16', '16', '-16'] rev=-16
+[18:24:27] live q20 test:2948: single 1488t/74s, parallel [1024, 1024, 1024], refine 1365t | gold 1+\sqrt 2,\ 1-\sqrt 2,\ 2+\sqrt 3,\ 2-\sqrt 3 single=-1, 4 + \sqrt{17}, 4 - \sqrt{17} par=[None, None, None] rev=0 \text{ and } 3
+[18:26:31] live q21 test:1997: single 423t/21s, parallel [582, 529, 443], refine 526t | gold 120 single=120 par=['120^\\circ', '120^\\circ', '120^\\circ'] rev=120^\circ
+[18:29:06] live q22 test:414: single 615t/30s, parallel [726, 542, 705], refine 553t | gold 1 single=-2, 1 par=['-2, 1', '-2, 1', '-2, 1'] rev=-2, 1
+[18:31:26] live q23 test:1808: single 614t/30s, parallel [611, 526, 600], refine 501t | gold 2 single=2 par=['2', '2', '2'] rev=2
+[18:32:48] live q24 test:4962: single 240t/12s, parallel [376, 429, 408], refine 224t | gold (4,\pi) single=(4, \pi) par=['(4, \\pi)', '(4, \\pi)', '(4, \\pi)'] rev=(4, \pi)
+[18:34:54] live q25 test:274: single 429t/22s, parallel [594, 596, 567], refine 358t | gold 2 single=2 par=['2', '2', '2'] rev=2
+[18:36:27] live q26 test:916: single 398t/19s, parallel [381, 372, 362], refine 397t | gold 14 single=14 par=['14', '12', '12'] rev=14
+[18:38:10] live q27 test:534: single 443t/22s, parallel [475, 443, 286], refine 445t | gold 56 single=56 par=['56', '56', '56'] rev=56
+[18:43:36] live q28 test:2177: single 1804t/89s, parallel [1024, 1024, 1024], refine 1644t | gold 18 single=20 par=[None, None, None] rev=0
+[18:46:00] live q29 test:1043: single 550t/27s, parallel [498, 749, 652], refine 460t | gold 2 single=2 par=['2', '2', '2'] rev=2
+[18:47:03] live q30 test:373: single 226t/11s, parallel [311, 235, 319], refine 197t | gold 11 single=11 par=['11', '11', '11'] rev=11
+[18:49:05] live q31 test:1379: single 586t/29s, parallel [440, 565, 482], refine 430t | gold \frac{10}{19} single=\frac{17}{19} par=['\\frac{16}{19}', '\\frac{16}{19}', '\\frac{16}{19}'] rev=\frac{16}{19}
+[18:52:43] live q32 test:196: single 788t/38s, parallel [1024, 647, 758], refine 1203t | gold 81 single=81 par=[None, '46', '81'] rev=81
+[18:55:30] live q33 test:2134: single 611t/30s, parallel [983, 432, 698], refine 693t | gold 15 single=15 par=['13', '9', '15'] rev=13
+[18:58:01] live q34 test:771: single 867t/42s, parallel [467, 507, 871], refine 370t | gold \frac{160}{33} single=\frac{160}{33} par=['\\frac{160}{33}', '\\frac{160}{33}', '\\frac{160}{33}'] rev=\frac{160}{33}
+[19:01:45] live q35 test:3572: single 1085t/53s, parallel [784, 993, 974], refine 715t | gold 22 single=22 par=['22', '22', '22'] rev=22
+[19:06:29] live q36 test:2358: single 1402t/69s, parallel [1024, 1024, 1024], refine 1269t | gold 2 \sqrt{5} single=\frac{3\sqrt{2}}{2} par=[None, None, None] rev=\sqrt{10}
+[19:07:46] live q37 test:2019: single 326t/16s, parallel [309, 301, 303], refine 355t | gold 5 single=5 par=['5', '5', '5'] rev=5
+[19:09:12] live q38 test:4144: single 389t/19s, parallel [349, 297, 391], refine 362t | gold 5 single=5 par=['5', '5', '5'] rev=5
+[19:11:15] live q39 test:3314: single 653t/31s, parallel [391, 683, 462], refine 366t | gold 15 single=16 par=['15', '8', '15'] rev=15
+[19:12:27] live q40 test:3239: single 288t/14s, parallel [308, 318, 302], refine 277t | gold 4 single=4 par=['4', '4', '4'] rev=4
+[19:16:01] live q41 test:4678: single 810t/39s, parallel [976, 865, 986], refine 784t | gold 6 single=6 par=['6', '6', '3'] rev=6
+[19:18:56] live q42 test:1122: single 603t/29s, parallel [868, 522, 808], refine 837t | gold 5 single=5 par=['5', '5', '5'] rev=5
+[19:20:10] live q43 test:4168: single 312t/15s, parallel [296, 328, 301], refine 294t | gold 0.6 single=0.6 par=['0.6', '0.6', '0.6'] rev=0.6
+[19:21:02] live q44 test:1300: single 200t/10s, parallel [266, 197, 181], refine 235t | gold 1 single=1 par=['1', '1', '1'] rev=1
+[19:25:21] live q45 test:4516: single 1548t/74s, parallel [964, 1024, 1024], refine 804t | gold \frac{25 \sqrt{10}}{4} single=\frac{17\sqrt{10}}{2} par=['4\\sqrt{10}', None, None] rev=4\sqrt{10}
+[19:27:28] live q46 test:1903: single 583t/28s, parallel [561, 590, 506], refine 373t | gold 80 single=90 par=['100', '100', '120'] rev=100
+[19:29:10] live q47 test:1916: single 485t/23s, parallel [385, 312, 546], refine 371t | gold 144 single=152 par=['120', '120', '193.5'] rev=120
+[19:32:28] live q48 test:3409: single 883t/42s, parallel [764, 913, 771], refine 751t | gold 3 single=3 par=['3', '3', '9'] rev=3
+[19:33:28] live q49 test:3617: single 281t/14s, parallel [228, 252, 319], refine 163t | gold 9 single=9 par=['9', '9', '9'] rev=9

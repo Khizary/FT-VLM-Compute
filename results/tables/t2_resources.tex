@@ -1,0 +1,13 @@
+\toprule
+Run & Stage & Trainable (M) & Connector (M) & LoRA (M) & Time (min) & Peak GPU (GB) \\
+\midrule
+196 tokens & caption alignment & 1.84 & 1.84 & 0.00 & 44.16 & 1.56 \\
+196 tokens & visual instruction & 6.42 & 1.84 & 4.59 & 33.57 & 1.57 \\
+196 tokens & natural vqa & 6.42 & 1.84 & 4.59 & 16.54 & 1.56 \\
+196 tokens & final test generation (4 conditions x 320 q) & -- & -- & -- & 0.70 & 1.92 \\
+49 tokens & caption alignment & 1.84 & 1.84 & 0.00 & 17.77 & 1.49 \\
+49 tokens & visual instruction & 6.42 & 1.84 & 4.59 & 17.57 & 1.49 \\
+49 tokens & natural vqa & 6.42 & 1.84 & 4.59 & 8.74 & 1.47 \\
+49 tokens & final test generation (4 conditions x 320 q) & -- & -- & -- & 0.42 & 1.43 \\
+shared & feature caching (9261 images; fetch 8.1 min) & -- & -- & -- & 1.71 & 1.33 \\
+\bottomrule

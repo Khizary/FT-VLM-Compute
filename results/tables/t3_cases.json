@@ -1,0 +1,262 @@
+{
+ "rules": "fixed rules (eval split, permutation order, order 0):\n(1) selection disagreement at N=32: first 3 questions where SC and self-certainty+RWC (VisConf+RWC on MathVista) pick\n    different groups and exactly one is correct;\n(2) premature stopping: first 3 held-out questions where the selected quality-aware policy stopped before 32 with a wrong\n    answer although fixed-32 SC was right;\n(3) refinement: every live question whose answer changed correctness after revision.",
+ "selection": {
+  "math": [
+   {
+    "sample_id": "test:2460",
+    "sc_answer": "58",
+    "sc_correct": false,
+    "rwc_selfcert_answer": "154",
+    "rwc_selfcert_correct": true,
+    "votes": {
+     "154": 11,
+     "58": 11,
+     "NO_ANSWER": 3,
+     "45": 1,
+     "98": 1,
+     "80": 1,
+     "50": 1,
+     "13": 1,
+     "90": 1,
+     "346": 1
+    },
+    "group_correct": {
+     "154": true,
+     "58": false,
+     "45": false,
+     "98": false,
+     "80": false,
+     "50": false,
+     "13": false,
+     "90": false,
+     "346": false,
+     "NO_ANSWER": false
+    }
+   },
+   {
+    "sample_id": "test:1903",
+    "sc_answer": "75",
+    "sc_correct": false,
+    "rwc_selfcert_answer": "80",
+    "rwc_selfcert_correct": true,
+    "votes": {
+     "55": 3,
+     "80": 7,
+     "120": 2,
+     "75": 7,
+     "90": 2,
+     "20": 1,
+     "180": 2,
+     "60": 3,
+     "140": 1,
+     "30": 1,
+     "100": 2,
+     "NO_ANSWER": 1
+    },
+    "group_correct": {
+     "55": false,
+     "80": true,
+     "120": false,
+     "75": false,
+     "90": false,
+     "20": false,
+     "180": false,
+     "60": false,
+     "140": false,
+     "30": false,
+     "100": false,
+     "NO_ANSWER": false
+    }
+   },
+   {
+    "sample_id": "test:2744",
+    "sc_answer": "0",
+    "sc_correct": false,
+    "rwc_selfcert_answer": "2",
+    "rwc_selfcert_correct": true,
+    "votes": {
+     "0": 16,
+     "2": 15,
+     "\\frac{7 + \\sqrt{29}}{2}": 1
+    },
+    "group_correct": {
+     "0": false,
+     "2": true,
+     "\\frac{7 + \\sqrt{29}}{2}": false,
+     "NO_ANSWER": false
+    }
+   }
+  ],
+  "mathvista": [
+   {
+    "sample_id": "552",
+    "sc_answer": "4",
+    "sc_correct": true,
+    "rwc_visconf_answer": "2",
+    "rwc_visconf_correct": false,
+    "votes": {
+     "3": 9,
+     "2": 9,
+     "4": 14
+    },
+    "group_correct": {
+     "4": true,
+     "3": false,
+     "2": false
+    }
+   },
+   {
+    "sample_id": "643",
+    "sc_answer": "C",
+    "sc_correct": false,
+    "rwc_visconf_answer": "A",
+    "rwc_visconf_correct": true,
+    "votes": {
+     "NO_ANSWER": 8,
+     "D": 3,
+     "C": 11,
+     "A": 10
+    },
+    "group_correct": {
+     "D": false,
+     "A": true,
+     "C": false,
+     "NO_ANSWER": false
+    }
+   },
+   {
+    "sample_id": "542",
+    "sc_answer": "2",
+    "sc_correct": true,
+    "rwc_visconf_answer": "3",
+    "rwc_visconf_correct": false,
+    "votes": {
+     "6": 1,
+     "5": 3,
+     "3": 11,
+     "2": 12,
+     "1": 2,
+     "7": 1,
+     "10": 1,
+     "NO_ANSWER": 1
+    },
+    "group_correct": {
+     "2": true,
+     "NO_ANSWER": false,
+     "5": false,
+     "7": false,
+     "6": false,
+     "10": false,
+     "3": false,
+     "1": false
+    }
+   }
+  ]
+ },
+ "premature": {
+  "math": [
+   {
+    "sample_id": "test:1803",
+    "order": 0,
+    "stop_n": 8,
+    "answer_group": "g0",
+    "correct": false,
+    "token_cost": 2310,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.5,
+    "sc32_support": 0.5
+   },
+   {
+    "sample_id": "test:3988",
+    "order": 0,
+    "stop_n": 4,
+    "answer_group": "g0",
+    "correct": false,
+    "token_cost": 1165,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.78125,
+    "sc32_support": 0.78125
+   },
+   {
+    "sample_id": "test:375",
+    "order": 0,
+    "stop_n": 16,
+    "answer_group": "g1",
+    "correct": false,
+    "token_cost": 9872,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.375,
+    "sc32_support": 0.375
+   }
+  ],
+  "mathvista": [
+   {
+    "sample_id": "434",
+    "order": 0,
+    "stop_n": 4,
+    "answer_group": "C",
+    "correct": false,
+    "token_cost": 1795,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.53125,
+    "sc32_support": 0.53125
+   },
+   {
+    "sample_id": "689",
+    "order": 0,
+    "stop_n": 4,
+    "answer_group": "B",
+    "correct": false,
+    "token_cost": 358,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.5,
+    "sc32_support": 0.5
+   },
+   {
+    "sample_id": "120",
+    "order": 0,
+    "stop_n": 4,
+    "answer_group": "1",
+    "correct": false,
+    "token_cost": 918,
+    "sc32_correct": true,
+    "pool_frac_correct": 0.4375,
+    "sc32_support": 0.4375
+   }
+  ]
+ },
+ "refinement": [
+  {
+   "sample_id": "test:3504",
+   "gold": "216",
+   "initial": null,
+   "revised": "216",
+   "initial_correct": false,
+   "revised_correct": true
+  },
+  {
+   "sample_id": "test:1324",
+   "gold": "\\frac{3}{16}",
+   "initial": "\\frac{3}{16}",
+   "revised": "\\frac{3}{32}",
+   "initial_correct": true,
+   "revised_correct": false
+  },
+  {
+   "sample_id": "test:3285",
+   "gold": "0",
+   "initial": null,
+   "revised": "0",
+   "initial_correct": false,
+   "revised_correct": true
+  },
+  {
+   "sample_id": "test:196",
+   "gold": "81",
+   "initial": null,
+   "revised": "81",
+   "initial_correct": false,
+   "revised_correct": true
+  }
+ ]
+}

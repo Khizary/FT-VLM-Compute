@@ -1,0 +1,92 @@
+{
+ "math": {
+  "quartile_gap": {
+   "neg_length": {
+    "all_questions": 0.045625,
+    "mixed_questions": 0.07782515991471216,
+    "n_mixed": 469
+   },
+   "logp": {
+    "all_questions": 0.07828125,
+    "mixed_questions": 0.13352878464818763,
+    "n_mixed": 469
+   },
+   "selfcert": {
+    "all_questions": 0.1196875,
+    "mixed_questions": 0.20415778251599148,
+    "n_mixed": 469
+   }
+  },
+  "spearman_with_length": {
+   "neg_length": -1.0,
+   "logp": 0.22450990220048075,
+   "selfcert": -0.16109595817293734
+  },
+  "spearman_with_correct": {
+   "neg_length": 0.07633378893588899,
+   "logp": 0.13413517217878496,
+   "selfcert": 0.19787325252618204
+  },
+  "selection_rule_examples": "first 3 eval questions in permutation order with both correct and incorrect rollouts; highest/lowest self-certainty rollout of each"
+ },
+ "mathvista": {
+  "quartile_gap": {
+   "neg_length": {
+    "all_questions": 0.040625,
+    "mixed_questions": 0.051261829652996846,
+    "n_mixed": 634
+   },
+   "logp": {
+    "all_questions": 0.01578125,
+    "mixed_questions": 0.019913249211356468,
+    "n_mixed": 634
+   },
+   "selfcert": {
+    "all_questions": 0.0346875,
+    "mixed_questions": 0.043769716088328074,
+    "n_mixed": 634
+   },
+   "vision": {
+    "all_questions": 0.0378125,
+    "mixed_questions": 0.04771293375394322,
+    "n_mixed": 634
+   },
+   "visconf": {
+    "all_questions": 0.07375,
+    "mixed_questions": 0.09305993690851735,
+    "n_mixed": 634
+   },
+   "tokenfusion": {
+    "all_questions": 0.0721875,
+    "mixed_questions": 0.09108832807570978,
+    "n_mixed": 634
+   }
+  },
+  "spearman_with_length": {
+   "neg_length": -1.0,
+   "logp": 0.3289814558958108,
+   "selfcert": 0.34933335845066327,
+   "vision": -0.6857520445845515,
+   "visconf": -0.2750367811900654,
+   "tokenfusion": -0.3218025706715197
+  },
+  "spearman_with_correct": {
+   "neg_length": 0.050440387147534294,
+   "logp": 0.02852668559044808,
+   "selfcert": 0.04751046371708033,
+   "vision": 0.041229773014521805,
+   "visconf": 0.08870124444310201,
+   "tokenfusion": 0.08036822360066459
+  },
+  "confidence_vision_corr_within_rollout": {
+   "mean": -0.2106680740611772,
+   "median": -0.2084831608165274,
+   "q25": -0.3326818031425316,
+   "q75": -0.0740059459714427,
+   "frac_positive": 0.14715313624276552,
+   "n_rollouts": 25572
+  },
+  "identity_Ztoken_minus_Z_equals_cov_max_abs_err": 0.0,
+  "selection_rule_examples": "first 3 eval questions in permutation order with both correct and incorrect rollouts; highest/lowest self-certainty rollout of each"
+ }
+}

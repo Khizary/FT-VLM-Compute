@@ -1,0 +1,4130 @@
+[
+  {
+    "pair_id": "vqa_val_386204064_403515007",
+    "type": "yes/no",
+    "question": "Does the girl have boots on?",
+    "sides": [
+      {
+        "question_id": 403515007,
+        "image": "val:403515",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 386204064,
+        "image": "val:386204",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_1369003_486079003",
+    "type": "yes/no",
+    "question": "Does the man have long hair?",
+    "sides": [
+      {
+        "question_id": 486079003,
+        "image": "val:486079",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 1369003,
+        "image": "val:1369",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_291686001_389256002",
+    "type": "other",
+    "question": "What color is the bowl?",
+    "sides": [
+      {
+        "question_id": 291686001,
+        "image": "val:291686",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      },
+      {
+        "question_id": 389256002,
+        "image": "val:389256",
+        "canonical": "blue",
+        "target": "blue",
+        "answers": [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "orange",
+          "blue",
+          "blue and white",
+          "blue"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_12153020_245460017",
+    "type": "yes/no",
+    "question": "Is the child wearing a bib?",
+    "sides": [
+      {
+        "question_id": 12153020,
+        "image": "val:12153",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 245460017,
+        "image": "val:245460",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "hat",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_117543006_160529002",
+    "type": "number",
+    "question": "How many engines are on the plane?",
+    "sides": [
+      {
+        "question_id": 160529002,
+        "image": "val:160529",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 117543006,
+        "image": "val:117543",
+        "canonical": "4",
+        "target": "4",
+        "answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_345389009_574769001",
+    "type": "yes/no",
+    "question": "Are there any oranges on the counter?",
+    "sides": [
+      {
+        "question_id": 574769001,
+        "image": "val:574769",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 345389009,
+        "image": "val:345389",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_177149000_528136028",
+    "type": "yes/no",
+    "question": "Are there stickers on the back of the truck?",
+    "sides": [
+      {
+        "question_id": 177149000,
+        "image": "val:177149",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "warning symbols",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 528136028,
+        "image": "val:528136",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_15968017_170955001",
+    "type": "other",
+    "question": "What color is the shirt?",
+    "sides": [
+      {
+        "question_id": 170955001,
+        "image": "val:170955",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "black",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      },
+      {
+        "question_id": 15968017,
+        "image": "val:15968",
+        "canonical": "black",
+        "target": "black",
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_147897001_507167004",
+    "type": "yes/no",
+    "question": "Can you see this person's eyes?",
+    "sides": [
+      {
+        "question_id": 147897001,
+        "image": "val:147897",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 507167004,
+        "image": "val:507167",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_42147001_348881002",
+    "type": "yes/no",
+    "question": "Is the airplane flying?",
+    "sides": [
+      {
+        "question_id": 348881002,
+        "image": "val:348881",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 42147001,
+        "image": "val:42147",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "in sky",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_310796001_574666000",
+    "type": "yes/no",
+    "question": "Are these the right shoes for skating?",
+    "sides": [
+      {
+        "question_id": 574666000,
+        "image": "val:574666",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "yes",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 310796001,
+        "image": "val:310796",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_42810002_479466001",
+    "type": "other",
+    "question": "What credit card is being advertised?",
+    "sides": [
+      {
+        "question_id": 479466001,
+        "image": "val:479466",
+        "canonical": "american express",
+        "target": "american express",
+        "answers": [
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express",
+          "american express"
+        ]
+      },
+      {
+        "question_id": 42810002,
+        "image": "val:42810",
+        "canonical": "chase",
+        "target": "chase",
+        "answers": [
+          "chase",
+          "chase",
+          "fence",
+          "chase",
+          "chase",
+          "chase",
+          "chase",
+          "chase",
+          "chase",
+          "chase"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_440475014_521419001",
+    "type": "other",
+    "question": "Is the TV on or off?",
+    "sides": [
+      {
+        "question_id": 521419001,
+        "image": "val:521419",
+        "canonical": "off",
+        "target": "off",
+        "answers": [
+          "yes",
+          "off",
+          "off",
+          "off",
+          "off",
+          "off",
+          "off",
+          "off",
+          "off",
+          "off"
+        ]
+      },
+      {
+        "question_id": 440475014,
+        "image": "val:440475",
+        "canonical": "on",
+        "target": "on",
+        "answers": [
+          "on",
+          "on",
+          "on",
+          "on",
+          "on",
+          "on",
+          "on",
+          "on",
+          "on",
+          "on"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_209530012_421955001",
+    "type": "other",
+    "question": "What is on the trays on both sides of picture?",
+    "sides": [
+      {
+        "question_id": 421955001,
+        "image": "val:421955",
+        "canonical": "cookies",
+        "target": "cookies",
+        "answers": [
+          "cookies",
+          "cookies",
+          "cookies",
+          "cookies",
+          "cookies",
+          "cookies",
+          "cookies",
+          "flags",
+          "cookies",
+          "cookies"
+        ]
+      },
+      {
+        "question_id": 209530012,
+        "image": "val:209530",
+        "canonical": "pizza",
+        "target": "pizza",
+        "answers": [
+          "pizza",
+          "pizza",
+          "food",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "food",
+          "pizza"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_200699000_471179001",
+    "type": "number",
+    "question": "How many black cows are behind  a fence?",
+    "sides": [
+      {
+        "question_id": 471179001,
+        "image": "val:471179",
+        "canonical": "8",
+        "target": "8",
+        "answers": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ]
+      },
+      {
+        "question_id": 200699000,
+        "image": "val:200699",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_163167021_199575002",
+    "type": "yes/no",
+    "question": "Is there sunlight in the room?",
+    "sides": [
+      {
+        "question_id": 199575002,
+        "image": "val:199575",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 163167021,
+        "image": "val:163167",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_383527004_537668007",
+    "type": "yes/no",
+    "question": "Is the water calm?",
+    "sides": [
+      {
+        "question_id": 383527004,
+        "image": "val:383527",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 537668007,
+        "image": "val:537668",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_71647005_100215001",
+    "type": "yes/no",
+    "question": "Are there a lot of toys?",
+    "sides": [
+      {
+        "question_id": 71647005,
+        "image": "val:71647",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 100215001,
+        "image": "val:100215",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_41570001_185904006",
+    "type": "yes/no",
+    "question": "Is everyone on a bike wearing a helmet?",
+    "sides": [
+      {
+        "question_id": 41570001,
+        "image": "val:41570",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 185904006,
+        "image": "val:185904",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_145039003_476339000",
+    "type": "yes/no",
+    "question": "Is the meter running?",
+    "sides": [
+      {
+        "question_id": 145039003,
+        "image": "val:145039",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 476339000,
+        "image": "val:476339",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_324285009_366484000",
+    "type": "other",
+    "question": "What is written on the leftmost pant leg?",
+    "sides": [
+      {
+        "question_id": 366484000,
+        "image": "val:366484",
+        "canonical": "lsd",
+        "target": "lsd",
+        "answers": [
+          "lsd",
+          "rb",
+          "lsd",
+          "lsd",
+          "lsd",
+          "lsd",
+          "lsd",
+          "lsd",
+          "lsd",
+          "lsd"
+        ]
+      },
+      {
+        "question_id": 324285009,
+        "image": "val:324285",
+        "canonical": "nothing",
+        "target": "nothing",
+        "answers": [
+          "adidas",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_104624002_257767008",
+    "type": "yes/no",
+    "question": "Is the keyboard white?",
+    "sides": [
+      {
+        "question_id": 104624002,
+        "image": "val:104624",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 257767008,
+        "image": "val:257767",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_407520001_410988016",
+    "type": "yes/no",
+    "question": "Does the refrigerator have magnets on it?",
+    "sides": [
+      {
+        "question_id": 407520001,
+        "image": "val:407520",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 410988016,
+        "image": "val:410988",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_110630003_344521028",
+    "type": "yes/no",
+    "question": "Is the food healthy?",
+    "sides": [
+      {
+        "question_id": 110630003,
+        "image": "val:110630",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "question_id": 344521028,
+        "image": "val:344521",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_466665000_506220001",
+    "type": "other",
+    "question": "Which room is this?",
+    "sides": [
+      {
+        "question_id": 466665000,
+        "image": "val:466665",
+        "canonical": "kitchen",
+        "target": "kitchen",
+        "answers": [
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen"
+        ]
+      },
+      {
+        "question_id": 506220001,
+        "image": "val:506220",
+        "canonical": "bathroom",
+        "target": "bathroom",
+        "answers": [
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_249883002_481480006",
+    "type": "other",
+    "question": "What is this person riding on?",
+    "sides": [
+      {
+        "question_id": 249883002,
+        "image": "val:249883",
+        "canonical": "skateboard",
+        "target": "skateboard",
+        "answers": [
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard",
+          "skateboard"
+        ]
+      },
+      {
+        "question_id": 481480006,
+        "image": "val:481480",
+        "canonical": "horse",
+        "target": "horse",
+        "answers": [
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_338802007_471601000",
+    "type": "yes/no",
+    "question": "Is the man wearing something on his feet?",
+    "sides": [
+      {
+        "question_id": 471601000,
+        "image": "val:471601",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 338802007,
+        "image": "val:338802",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_214205004_421682003",
+    "type": "yes/no",
+    "question": "Is it a full moon?",
+    "sides": [
+      {
+        "question_id": 214205004,
+        "image": "val:214205",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 421682003,
+        "image": "val:421682",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_283012004_399655001",
+    "type": "yes/no",
+    "question": "Is there an animal in the picture?",
+    "sides": [
+      {
+        "question_id": 399655001,
+        "image": "val:399655",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 283012004,
+        "image": "val:283012",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_487181004_531299027",
+    "type": "other",
+    "question": "What color is the man's shirt?",
+    "sides": [
+      {
+        "question_id": 487181004,
+        "image": "val:487181",
+        "canonical": "blue",
+        "target": "blue",
+        "answers": [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      },
+      {
+        "question_id": 531299027,
+        "image": "val:531299",
+        "canonical": "yellow",
+        "target": "yellow",
+        "answers": [
+          "green",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_157883003_158660004",
+    "type": "yes/no",
+    "question": "Is this a vegan meal?",
+    "sides": [
+      {
+        "question_id": 157883003,
+        "image": "val:157883",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 158660004,
+        "image": "val:158660",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_468744000_521282040",
+    "type": "yes/no",
+    "question": "Is there a candle?",
+    "sides": [
+      {
+        "question_id": 468744000,
+        "image": "val:468744",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "question_id": 521282040,
+        "image": "val:521282",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_311068008_381832002",
+    "type": "other",
+    "question": "Should you stop or go?",
+    "sides": [
+      {
+        "question_id": 381832002,
+        "image": "val:381832",
+        "canonical": "stop",
+        "target": "stop",
+        "answers": [
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop",
+          "stop"
+        ]
+      },
+      {
+        "question_id": 311068008,
+        "image": "val:311068",
+        "canonical": "go",
+        "target": "go",
+        "answers": [
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_236308000_243831002",
+    "type": "number",
+    "question": "How many people are visible?",
+    "sides": [
+      {
+        "question_id": 243831002,
+        "image": "val:243831",
+        "canonical": "5",
+        "target": "5",
+        "answers": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
+      },
+      {
+        "question_id": 236308000,
+        "image": "val:236308",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "3",
+          "2",
+          "2",
+          "2",
+          "2",
+          "3",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_97278001_173830003",
+    "type": "yes/no",
+    "question": "Is this person skiing?",
+    "sides": [
+      {
+        "question_id": 97278001,
+        "image": "val:97278",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 173830003,
+        "image": "val:173830",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_441873000_509826046",
+    "type": "other",
+    "question": "What is the child looking at?",
+    "sides": [
+      {
+        "question_id": 441873000,
+        "image": "val:441873",
+        "canonical": "kite",
+        "target": "kite",
+        "answers": [
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite"
+        ]
+      },
+      {
+        "question_id": 509826046,
+        "image": "val:509826",
+        "canonical": "ground",
+        "target": "ground",
+        "answers": [
+          "ground",
+          "ground",
+          "ground",
+          "ground",
+          "ground",
+          "ground",
+          "skateboard",
+          "ground",
+          "ground",
+          "ground"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_214732003_528720009",
+    "type": "yes/no",
+    "question": "Is he wearing boots?",
+    "sides": [
+      {
+        "question_id": 214732003,
+        "image": "val:214732",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 528720009,
+        "image": "val:528720",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_1340001_385001001",
+    "type": "yes/no",
+    "question": "Are these flowers artificial?",
+    "sides": [
+      {
+        "question_id": 1340001,
+        "image": "val:1340",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 385001001,
+        "image": "val:385001",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_417596002_562834000",
+    "type": "number",
+    "question": "How many legs do the benches have?",
+    "sides": [
+      {
+        "question_id": 417596002,
+        "image": "val:417596",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "4",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "4",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 562834000,
+        "image": "val:562834",
+        "canonical": "6",
+        "target": "6",
+        "answers": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_42387004_527625000",
+    "type": "yes/no",
+    "question": "Is there a bench in the picture?",
+    "sides": [
+      {
+        "question_id": 42387004,
+        "image": "val:42387",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 527625000,
+        "image": "val:527625",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_305351011_381173006",
+    "type": "yes/no",
+    "question": "Is this a giraffe baby?",
+    "sides": [
+      {
+        "question_id": 381173006,
+        "image": "val:381173",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 305351011,
+        "image": "val:305351",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_350167005_392108001",
+    "type": "yes/no",
+    "question": "Is the water calm?",
+    "sides": [
+      {
+        "question_id": 392108001,
+        "image": "val:392108",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 350167005,
+        "image": "val:350167",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_135561003_457037000",
+    "type": "yes/no",
+    "question": "Is this a hotel room?",
+    "sides": [
+      {
+        "question_id": 457037000,
+        "image": "val:457037",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 135561003,
+        "image": "val:135561",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_192091014_517061002",
+    "type": "yes/no",
+    "question": "Was this picture taken at the beach?",
+    "sides": [
+      {
+        "question_id": 517061002,
+        "image": "val:517061",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 192091014,
+        "image": "val:192091",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_589008_147259002",
+    "type": "yes/no",
+    "question": "Is it sunny?",
+    "sides": [
+      {
+        "question_id": 147259002,
+        "image": "val:147259",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 589008,
+        "image": "val:589",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_164583001_249524008",
+    "type": "yes/no",
+    "question": "Are there any people in the photo?",
+    "sides": [
+      {
+        "question_id": 164583001,
+        "image": "val:164583",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 249524008,
+        "image": "val:249524",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes person",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_247720009_367082006",
+    "type": "yes/no",
+    "question": "Is there a blanket on the chair?",
+    "sides": [
+      {
+        "question_id": 367082006,
+        "image": "val:367082",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 247720009,
+        "image": "val:247720",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_38276016_122549066",
+    "type": "yes/no",
+    "question": "Is there anyone in the room?",
+    "sides": [
+      {
+        "question_id": 38276016,
+        "image": "val:38276",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      },
+      {
+        "question_id": 122549066,
+        "image": "val:122549",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "man",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_157271002_490683001",
+    "type": "number",
+    "question": "What number is Angel?",
+    "sides": [
+      {
+        "question_id": 490683001,
+        "image": "val:490683",
+        "canonical": "88",
+        "target": "88",
+        "answers": [
+          "88",
+          "88",
+          "88",
+          "88",
+          "88",
+          "88",
+          "88",
+          "88",
+          "88",
+          "88"
+        ]
+      },
+      {
+        "question_id": 157271002,
+        "image": "val:157271",
+        "canonical": "17",
+        "target": "17",
+        "answers": [
+          "17",
+          "17",
+          "0",
+          "17",
+          "17",
+          "17",
+          "17",
+          "17",
+          "17",
+          "17"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_149298011_390627004",
+    "type": "yes/no",
+    "question": "Is the mini-fridge door open?",
+    "sides": [
+      {
+        "question_id": 390627004,
+        "image": "val:390627",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "open",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 149298011,
+        "image": "val:149298",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_92177005_139260004",
+    "type": "yes/no",
+    "question": "Is this a birthday cake?",
+    "sides": [
+      {
+        "question_id": 92177005,
+        "image": "val:92177",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 139260004,
+        "image": "val:139260",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_146785002_320370007",
+    "type": "other",
+    "question": "What color shirts are the men wearing?",
+    "sides": [
+      {
+        "question_id": 146785002,
+        "image": "val:146785",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "t-shirts",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      },
+      {
+        "question_id": 320370007,
+        "image": "val:320370",
+        "canonical": "red",
+        "target": "red",
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_263014012_432732002",
+    "type": "number",
+    "question": "How many zebras?",
+    "sides": [
+      {
+        "question_id": 432732002,
+        "image": "val:432732",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "there is 1 zebra",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "question_id": 263014012,
+        "image": "val:263014",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_8718000_455225003",
+    "type": "other",
+    "question": "What is the red fruit?",
+    "sides": [
+      {
+        "question_id": 8718000,
+        "image": "val:8718",
+        "canonical": "strawberry",
+        "target": "strawberry",
+        "answers": [
+          "yes",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry",
+          "strawberry"
+        ]
+      },
+      {
+        "question_id": 455225003,
+        "image": "val:455225",
+        "canonical": "apple",
+        "target": "apple",
+        "answers": [
+          "apple",
+          "apple",
+          "apple",
+          "apple",
+          "apple",
+          "watermelon",
+          "apples",
+          "apple",
+          "apple",
+          "apple"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_332318001_477846002",
+    "type": "yes/no",
+    "question": "Is this a cloudy day?",
+    "sides": [
+      {
+        "question_id": 477846002,
+        "image": "val:477846",
+        "canonical": "yes",
+        "target": "yes",
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "question_id": 332318001,
+        "image": "val:332318",
+        "canonical": "no",
+        "target": "no",
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_24522001_233017007",
+    "type": "other",
+    "question": "What is written on the bus?",
+    "sides": [
+      {
+        "question_id": 24522001,
+        "image": "val:24522",
+        "canonical": "le mechant",
+        "target": "le mechant",
+        "answers": [
+          "le mechant",
+          "le mechant",
+          "le mechant",
+          "le mechant",
+          "le mechant",
+          "le mechant",
+          "le mechant",
+          "can't tell",
+          "le mechant",
+          "le mechant"
+        ]
+      },
+      {
+        "question_id": 233017007,
+        "image": "val:233017",
+        "canonical": "sbs transit",
+        "target": "sbs transit",
+        "answers": [
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit",
+          "sbs transit"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_190218002_398866000",
+    "type": "other",
+    "question": "What color are the man's shoes?",
+    "sides": [
+      {
+        "question_id": 190218002,
+        "image": "val:190218",
+        "canonical": "blue",
+        "target": "blue",
+        "answers": [
+          "blue",
+          "gray",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "purple",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      },
+      {
+        "question_id": 398866000,
+        "image": "val:398866",
+        "canonical": "brown",
+        "target": "brown",
+        "answers": [
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_167544000_394131002",
+    "type": "other",
+    "question": "What is wrote on the side of the plane?",
+    "sides": [
+      {
+        "question_id": 167544000,
+        "image": "val:167544",
+        "canonical": "jetairfly",
+        "target": "jetairfly",
+        "answers": [
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly",
+          "jetairfly"
+        ]
+      },
+      {
+        "question_id": 394131002,
+        "image": "val:394131",
+        "canonical": "lufthansa",
+        "target": "lufthansa",
+        "answers": [
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa",
+          "lufthansa"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_252091002_293221002",
+    "type": "other",
+    "question": "Is the woman wearing a jacket or vest?",
+    "sides": [
+      {
+        "question_id": 252091002,
+        "image": "val:252091",
+        "canonical": "vest",
+        "target": "vest",
+        "answers": [
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest",
+          "vest"
+        ]
+      },
+      {
+        "question_id": 293221002,
+        "image": "val:293221",
+        "canonical": "jacket",
+        "target": "jacket",
+        "answers": [
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket",
+          "jacket"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_30356026_304447001",
+    "type": "number",
+    "question": "How many cats are in the photo?",
+    "sides": [
+      {
+        "question_id": 304447001,
+        "image": "val:304447",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "3",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 30356026,
+        "image": "val:30356",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_58157006_120872008",
+    "type": "other",
+    "question": "What kind of sport are these men playing?",
+    "sides": [
+      {
+        "question_id": 120872008,
+        "image": "val:120872",
+        "canonical": "soccer",
+        "target": "soccer",
+        "answers": [
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "frisbee",
+          "soccer",
+          "frisbee",
+          "soccer",
+          "soccer"
+        ]
+      },
+      {
+        "question_id": 58157006,
+        "image": "val:58157",
+        "canonical": "frisbee",
+        "target": "frisbee",
+        "answers": [
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "ultimate frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_50350000_246928005",
+    "type": "other",
+    "question": "Which room is this?",
+    "sides": [
+      {
+        "question_id": 50350000,
+        "image": "val:50350",
+        "canonical": "bathroom",
+        "target": "bathroom",
+        "answers": [
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom"
+        ]
+      },
+      {
+        "question_id": 246928005,
+        "image": "val:246928",
+        "canonical": "bedroom",
+        "target": "bedroom",
+        "answers": [
+          "bedroom",
+          "bedroom",
+          "bedroom",
+          "bedroom",
+          "bedroom",
+          "bedroom",
+          "bedroom",
+          "train compartment",
+          "bed",
+          "bedroom"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_91667016_266831004",
+    "type": "other",
+    "question": "What color is the person's jacket?",
+    "sides": [
+      {
+        "question_id": 266831004,
+        "image": "val:266831",
+        "canonical": "brown",
+        "target": "brown",
+        "answers": [
+          "brown",
+          "black",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown",
+          "brown"
+        ]
+      },
+      {
+        "question_id": 91667016,
+        "image": "val:91667",
+        "canonical": "black",
+        "target": "black",
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "blue",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_46889001_313811002",
+    "type": "other",
+    "question": "What color is the baby's shirt?",
+    "sides": [
+      {
+        "question_id": 313811002,
+        "image": "val:313811",
+        "canonical": "red",
+        "target": "red",
+        "answers": [
+          "black",
+          "red",
+          "red",
+          "blue",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ]
+      },
+      {
+        "question_id": 46889001,
+        "image": "val:46889",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_223020003_451879002",
+    "type": "number",
+    "question": "What number is the fielder?",
+    "sides": [
+      {
+        "question_id": 451879002,
+        "image": "val:451879",
+        "canonical": "4",
+        "target": "4",
+        "answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "l4",
+          "judge",
+          "4",
+          "4"
+        ]
+      },
+      {
+        "question_id": 223020003,
+        "image": "val:223020",
+        "canonical": "6",
+        "target": "6",
+        "answers": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_251910001_431023000",
+    "type": "other",
+    "question": "Is it day or night?",
+    "sides": [
+      {
+        "question_id": 251910001,
+        "image": "val:251910",
+        "canonical": "night",
+        "target": "night",
+        "answers": [
+          "night",
+          "night",
+          "night",
+          "night",
+          "night",
+          "night",
+          "night",
+          "night",
+          "night",
+          "night"
+        ]
+      },
+      {
+        "question_id": 431023000,
+        "image": "val:431023",
+        "canonical": "day",
+        "target": "day",
+        "answers": [
+          "day",
+          "daytime",
+          "day",
+          "day",
+          "day",
+          "day",
+          "day",
+          "day",
+          "day",
+          "day"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_802003_555939000",
+    "type": "other",
+    "question": "What kind of room is this?",
+    "sides": [
+      {
+        "question_id": 555939000,
+        "image": "val:555939",
+        "canonical": "bathroom",
+        "target": "bathroom",
+        "answers": [
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom"
+        ]
+      },
+      {
+        "question_id": 802003,
+        "image": "val:802",
+        "canonical": "kitchen",
+        "target": "kitchen",
+        "answers": [
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_196759004_546388002",
+    "type": "other",
+    "question": "What is the main color of the van?",
+    "sides": [
+      {
+        "question_id": 196759004,
+        "image": "val:196759",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      },
+      {
+        "question_id": 546388002,
+        "image": "val:546388",
+        "canonical": "orange",
+        "target": "orange",
+        "answers": [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_313359003_398726004",
+    "type": "number",
+    "question": "How many horses are there?",
+    "sides": [
+      {
+        "question_id": 398726004,
+        "image": "val:398726",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 313359003,
+        "image": "val:313359",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_176314006_321692002",
+    "type": "number",
+    "question": "How many horses are in the picture?",
+    "sides": [
+      {
+        "question_id": 321692002,
+        "image": "val:321692",
+        "canonical": "6",
+        "target": "6",
+        "answers": [
+          "7",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "7",
+          "6"
+        ]
+      },
+      {
+        "question_id": 176314006,
+        "image": "val:176314",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_13980001_499594002",
+    "type": "other",
+    "question": "Is this meal meant for a child or adult?",
+    "sides": [
+      {
+        "question_id": 13980001,
+        "image": "val:13980",
+        "canonical": "child",
+        "target": "child",
+        "answers": [
+          "child",
+          "child",
+          "child",
+          "child",
+          "child",
+          "child",
+          "adult",
+          "child",
+          "child",
+          "child"
+        ]
+      },
+      {
+        "question_id": 499594002,
+        "image": "val:499594",
+        "canonical": "adult",
+        "target": "adult",
+        "answers": [
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult",
+          "adult"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_80953000_541898012",
+    "type": "other",
+    "question": "What color is the edges of her hair?",
+    "sides": [
+      {
+        "question_id": 80953000,
+        "image": "val:80953",
+        "canonical": "pink",
+        "target": "pink",
+        "answers": [
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ]
+      },
+      {
+        "question_id": 541898012,
+        "image": "val:541898",
+        "canonical": "blonde",
+        "target": "blonde",
+        "answers": [
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde",
+          "blonde"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_2473002_119308007",
+    "type": "other",
+    "question": "What sport is being performed?",
+    "sides": [
+      {
+        "question_id": 2473002,
+        "image": "val:2473",
+        "canonical": "skiing",
+        "target": "skiing",
+        "answers": [
+          "skiing",
+          "skiing",
+          "skiing",
+          "ski jump",
+          "skiing",
+          "skiing",
+          "skiing",
+          "skiing",
+          "skiing",
+          "skiing"
+        ]
+      },
+      {
+        "question_id": 119308007,
+        "image": "val:119308",
+        "canonical": "skateboarding",
+        "target": "skateboarding",
+        "answers": [
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboarding",
+          "skateboard"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_140743005_552744000",
+    "type": "other",
+    "question": "What color is her hair?",
+    "sides": [
+      {
+        "question_id": 552744000,
+        "image": "val:552744",
+        "canonical": "brown",
+        "target": "brown",
+        "answers": [
+          "brown",
+          "brown",
+          "unknown",
+          "brown",
+          "brown",
+          "brown",
+          "blonde",
+          "brown",
+          "brown",
+          "brown"
+        ]
+      },
+      {
+        "question_id": 140743005,
+        "image": "val:140743",
+        "canonical": "black",
+        "target": "black",
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_10858002_89618001",
+    "type": "number",
+    "question": "How many pizzas are in the photo?",
+    "sides": [
+      {
+        "question_id": 10858002,
+        "image": "val:10858",
+        "canonical": "0",
+        "target": "0",
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "question_id": 89618001,
+        "image": "val:89618",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_236000001_325720003",
+    "type": "other",
+    "question": "What color is the cab of this semi truck?",
+    "sides": [
+      {
+        "question_id": 236000001,
+        "image": "val:236000",
+        "canonical": "yellow",
+        "target": "yellow",
+        "answers": [
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ]
+      },
+      {
+        "question_id": 325720003,
+        "image": "val:325720",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white and black",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_150638001_425578000",
+    "type": "other",
+    "question": "What color are the buckets on the left?",
+    "sides": [
+      {
+        "question_id": 425578000,
+        "image": "val:425578",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "blue",
+          "white"
+        ]
+      },
+      {
+        "question_id": 150638001,
+        "image": "val:150638",
+        "canonical": "blue",
+        "target": "blue",
+        "answers": [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_392933002_577065006",
+    "type": "other",
+    "question": "What is this animal?",
+    "sides": [
+      {
+        "question_id": 392933002,
+        "image": "val:392933",
+        "canonical": "giraffe",
+        "target": "giraffe",
+        "answers": [
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "brown and tan",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe"
+        ]
+      },
+      {
+        "question_id": 577065006,
+        "image": "val:577065",
+        "canonical": "zebra",
+        "target": "zebra",
+        "answers": [
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "zebra",
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_37457000_234785000",
+    "type": "other",
+    "question": "What kind of animal is this?",
+    "sides": [
+      {
+        "question_id": 234785000,
+        "image": "val:234785",
+        "canonical": "dog",
+        "target": "dog",
+        "answers": [
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog"
+        ]
+      },
+      {
+        "question_id": 37457000,
+        "image": "val:37457",
+        "canonical": "sheep",
+        "target": "sheep",
+        "answers": [
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep",
+          "sheep"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_142249002_308441000",
+    "type": "other",
+    "question": "What kind of game is the crowd watching?",
+    "sides": [
+      {
+        "question_id": 308441000,
+        "image": "val:308441",
+        "canonical": "tennis",
+        "target": "tennis",
+        "answers": [
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis",
+          "tennis"
+        ]
+      },
+      {
+        "question_id": 142249002,
+        "image": "val:142249",
+        "canonical": "baseball",
+        "target": "baseball",
+        "answers": [
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_44802011_185865001",
+    "type": "other",
+    "question": "What color is the player's shirt?",
+    "sides": [
+      {
+        "question_id": 185865001,
+        "image": "val:185865",
+        "canonical": "pink",
+        "target": "pink",
+        "answers": [
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink",
+          "pink"
+        ]
+      },
+      {
+        "question_id": 44802011,
+        "image": "val:44802",
+        "canonical": "blue",
+        "target": "blue",
+        "answers": [
+          "blue and white",
+          "blue and white",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_257624004_551633002",
+    "type": "number",
+    "question": "How many soccer balls are there?",
+    "sides": [
+      {
+        "question_id": 551633002,
+        "image": "val:551633",
+        "canonical": "3",
+        "target": "3",
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "question_id": 257624004,
+        "image": "val:257624",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_419074002_569016007",
+    "type": "other",
+    "question": "Is the airplane on the ground or in the air?",
+    "sides": [
+      {
+        "question_id": 569016007,
+        "image": "val:569016",
+        "canonical": "ground",
+        "target": "ground",
+        "answers": [
+          "ground",
+          "on ground",
+          "ground",
+          "ground",
+          "on ground",
+          "ground",
+          "ground",
+          "ground",
+          "ground",
+          "ground"
+        ]
+      },
+      {
+        "question_id": 419074002,
+        "image": "val:419074",
+        "canonical": "air",
+        "target": "air",
+        "answers": [
+          "air",
+          "air",
+          "air",
+          "air",
+          "air",
+          "in air",
+          "air",
+          "air",
+          "air",
+          "air"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_132987002_380711002",
+    "type": "number",
+    "question": "How many people are shown?",
+    "sides": [
+      {
+        "question_id": 132987002,
+        "image": "val:132987",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 380711002,
+        "image": "val:380711",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_13159001_206391003",
+    "type": "number",
+    "question": "How many bolts are holding in the sign?",
+    "sides": [
+      {
+        "question_id": 13159001,
+        "image": "val:13159",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "1",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 206391003,
+        "image": "val:206391",
+        "canonical": "6",
+        "target": "6",
+        "answers": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_183181001_569703001",
+    "type": "number",
+    "question": "How many people are in the water swimming?",
+    "sides": [
+      {
+        "question_id": 183181001,
+        "image": "val:183181",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 569703001,
+        "image": "val:569703",
+        "canonical": "0",
+        "target": "0",
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_11703001_405970001",
+    "type": "other",
+    "question": "What color is the interior?",
+    "sides": [
+      {
+        "question_id": 11703001,
+        "image": "val:11703",
+        "canonical": "white",
+        "target": "white",
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "gray",
+          "white"
+        ]
+      },
+      {
+        "question_id": 405970001,
+        "image": "val:405970",
+        "canonical": "green",
+        "target": "green",
+        "answers": [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_1584007_466346003",
+    "type": "number",
+    "question": "What number is on the black sign on this bus?",
+    "sides": [
+      {
+        "question_id": 466346003,
+        "image": "val:466346",
+        "canonical": "5",
+        "target": "5",
+        "answers": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ]
+      },
+      {
+        "question_id": 1584007,
+        "image": "val:1584",
+        "canonical": "15",
+        "target": "15",
+        "answers": [
+          "15",
+          "15",
+          "15",
+          "15",
+          "15",
+          "15",
+          "15",
+          "15",
+          "9",
+          "15"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_140068004_396519000",
+    "type": "number",
+    "question": "What number is on the player's jersey?",
+    "sides": [
+      {
+        "question_id": 140068004,
+        "image": "val:140068",
+        "canonical": "51",
+        "target": "51",
+        "answers": [
+          "51",
+          "51",
+          "51",
+          "51",
+          "51",
+          "51",
+          "51",
+          "51",
+          "51",
+          "51"
+        ]
+      },
+      {
+        "question_id": 396519000,
+        "image": "val:396519",
+        "canonical": "55",
+        "target": "55",
+        "answers": [
+          "55",
+          "55",
+          "55",
+          "55",
+          "55",
+          "55",
+          "55",
+          "55",
+          "55",
+          "55"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_16879000_397475004",
+    "type": "number",
+    "question": "What number is on the red shirt?",
+    "sides": [
+      {
+        "question_id": 16879000,
+        "image": "val:16879",
+        "canonical": "19",
+        "target": "19",
+        "answers": [
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ]
+      },
+      {
+        "question_id": 397475004,
+        "image": "val:397475",
+        "canonical": "08",
+        "target": "08",
+        "answers": [
+          "08",
+          "08",
+          "08",
+          "08",
+          "08",
+          "8",
+          "08",
+          "08",
+          "08",
+          "08"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_77479002_525559000",
+    "type": "number",
+    "question": "How many zebra are standing in the field?",
+    "sides": [
+      {
+        "question_id": 525559000,
+        "image": "val:525559",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 77479002,
+        "image": "val:77479",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_309044000_453722004",
+    "type": "number",
+    "question": "How many cats are in the living room?",
+    "sides": [
+      {
+        "question_id": 309044000,
+        "image": "val:309044",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 453722004,
+        "image": "val:453722",
+        "canonical": "0",
+        "target": "0",
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_43535005_551459011",
+    "type": "number",
+    "question": "How many elephants are shown?",
+    "sides": [
+      {
+        "question_id": 43535005,
+        "image": "val:43535",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "question_id": 551459011,
+        "image": "val:551459",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_52947003_104313002",
+    "type": "number",
+    "question": "How many doughnuts have holes?",
+    "sides": [
+      {
+        "question_id": 104313002,
+        "image": "val:104313",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "6",
+          "3",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 52947003,
+        "image": "val:52947",
+        "canonical": "9",
+        "target": "9",
+        "answers": [
+          "9",
+          "9",
+          "9",
+          "7",
+          "9",
+          "9",
+          "9",
+          "9",
+          "all",
+          "9"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_106487002_372203000",
+    "type": "number",
+    "question": "How many street lights are there?",
+    "sides": [
+      {
+        "question_id": 106487002,
+        "image": "val:106487",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "3",
+          "2",
+          "2",
+          "2",
+          "2",
+          "3",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "question_id": 372203000,
+        "image": "val:372203",
+        "canonical": "1",
+        "target": "1",
+        "answers": [
+          "1",
+          "1",
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "pair_id": "vqa_val_355234000_444073002",
+    "type": "number",
+    "question": "How many sheep is the dog chasing?",
+    "sides": [
+      {
+        "question_id": 355234000,
+        "image": "val:355234",
+        "canonical": "3",
+        "target": "3",
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "question_id": 444073002,
+        "image": "val:444073",
+        "canonical": "2",
+        "target": "2",
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[17:11:02] downloading http://images.cocodataset.org/annotations/annotations_trainval2014.zip
+[17:11:22] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Train_mscoco.zip
+[17:11:25] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Val_mscoco.zip
+[17:11:27] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Train_mscoco.zip
+[17:11:32] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip
+[17:11:35] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Complementary_Pairs_Train_mscoco.zip
+[17:11:37] downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Complementary_Pairs_Val_mscoco.zip
+[17:17:35] task2 data: {'captions_train': 18000, 'captions_dev': 96, 'grounding_train_pool': 6000, 'grounding_dev': 24, 'grounding_test': 64, 'vqa_train': 1536, 'vqa_dev': 32, 'vqa_test': 96} in 394s

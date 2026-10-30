@@ -1,0 +1,242 @@
+{
+  "run": "pool49",
+  "n_visual_tokens": 49,
+  "settings": "greedy, 16 new tokens, batch 8, thinking disabled, fp16",
+  "suites": {
+    "grounding": {
+      "correct": {
+        "accuracy": 0.7421875,
+        "accuracy_ci95": [
+          0.6484375,
+          0.828125
+        ],
+        "by_type": {
+          "counting": 0.546875,
+          "presence": 0.9375
+        },
+        "pair_accuracy": 0.625,
+        "pair_accuracy_ci95": [
+          0.5,
+          0.734375
+        ],
+        "identical_answer_rate": 0.15625,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 0.7917527769274102,
+        "gen_time_per_answer_s": 0.020835667848587036,
+        "follows_partner_answer_rate": 0.078125
+      },
+      "complementary": {
+        "accuracy": 0.078125,
+        "accuracy_ci95": [
+          0.03125,
+          0.1328125
+        ],
+        "by_type": {
+          "counting": 0.09375,
+          "presence": 0.0625
+        },
+        "pair_accuracy": 0.015625,
+        "pair_accuracy_ci95": [
+          0.0,
+          0.046875
+        ],
+        "identical_answer_rate": 0.15625,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 3.847660992954843,
+        "gen_time_per_answer_s": 0.01601669378578663,
+        "follows_partner_answer_rate": 0.7421875
+      },
+      "mismatched": {
+        "accuracy": 0.34375,
+        "accuracy_ci95": [
+          0.2734375,
+          0.421875
+        ],
+        "by_type": {
+          "counting": 0.125,
+          "presence": 0.5625
+        },
+        "pair_accuracy": 0.078125,
+        "pair_accuracy_ci95": [
+          0.015625,
+          0.140625
+        ],
+        "identical_answer_rate": 0.71875,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 2.4327583393351233,
+        "gen_time_per_answer_s": 0.016109753400087357,
+        "follows_partner_answer_rate": 0.2890625
+      },
+      "noimage": {
+        "accuracy": 0.3828125,
+        "accuracy_ci95": [
+          0.328125,
+          0.4296875
+        ],
+        "by_type": {
+          "counting": 0.265625,
+          "presence": 0.5
+        },
+        "pair_accuracy": 0.0,
+        "pair_accuracy_ci95": [
+          0.0,
+          0.0
+        ],
+        "identical_answer_rate": 1.0,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 1.2095404552819673,
+        "gen_time_per_answer_s": 0.015732169151306152,
+        "follows_partner_answer_rate": 0.3828125
+      },
+      "advantage_correct_vs_complementary": {
+        "accuracy_pp": 66.40625,
+        "accuracy_pp_ci95": [
+          53.90625,
+          77.34375
+        ],
+        "nll_swap_penalty": 3.055908216027433,
+        "nll_swap_penalty_ci95": [
+          2.4077056875012857,
+          3.693249525030194
+        ],
+        "by_type_accuracy_pp": {
+          "counting": 45.3125,
+          "presence": 87.5
+        }
+      },
+      "n_pairs": 64,
+      "n_questions": 128
+    },
+    "vqa": {
+      "correct": {
+        "accuracy": 0.49270833333333336,
+        "accuracy_ci95": [
+          0.42394531250000006,
+          0.5630208333333333
+        ],
+        "by_type": {
+          "number": 0.32916666666666666,
+          "other": 0.44722222222222224,
+          "yes/no": 0.6472222222222221
+        },
+        "pair_accuracy": 0.21875,
+        "pair_accuracy_ci95": [
+          0.13541666666666666,
+          0.3020833333333333
+        ],
+        "identical_answer_rate": 0.5,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 1.7782013196465414,
+        "gen_time_per_answer_s": 0.021659761667251587,
+        "follows_partner_answer_rate": 0.265625
+      },
+      "complementary": {
+        "accuracy": 0.2921875,
+        "accuracy_ci95": [
+          0.23227864583333332,
+          0.35365885416666676
+        ],
+        "by_type": {
+          "number": 0.2125,
+          "other": 0.18472222222222223,
+          "yes/no": 0.4527777777777777
+        },
+        "pair_accuracy": 0.052083333333333336,
+        "pair_accuracy_ci95": [
+          0.010416666666666666,
+          0.10416666666666667
+        ],
+        "identical_answer_rate": 0.5,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 2.6738183250369425,
+        "gen_time_per_answer_s": 0.02182832856973012,
+        "follows_partner_answer_rate": 0.4583333333333333
+      },
+      "mismatched": {
+        "accuracy": 0.34166666666666673,
+        "accuracy_ci95": [
+          0.2760416666666667,
+          0.40730468750000015
+        ],
+        "by_type": {
+          "number": 0.13125,
+          "other": 0.22083333333333333,
+          "yes/no": 0.6027777777777777
+        },
+        "pair_accuracy": 0.08333333333333333,
+        "pair_accuracy_ci95": [
+          0.03125,
+          0.14583333333333334
+        ],
+        "identical_answer_rate": 0.6875,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 2.7716350903817024,
+        "gen_time_per_answer_s": 0.023796049257119496,
+        "follows_partner_answer_rate": 0.23958333333333334
+      },
+      "noimage": {
+        "accuracy": 0.3302083333333333,
+        "accuracy_ci95": [
+          0.2791666666666667,
+          0.3812630208333334
+        ],
+        "by_type": {
+          "number": 0.24583333333333335,
+          "other": 0.175,
+          "yes/no": 0.5416666666666666
+        },
+        "pair_accuracy": 0.0,
+        "pair_accuracy_ci95": [
+          0.0,
+          0.0
+        ],
+        "identical_answer_rate": 1.0,
+        "empty_answer_rate": 0.0,
+        "mean_ref_nll": 2.08770586817991,
+        "gen_time_per_answer_s": 0.016888457039992016,
+        "follows_partner_answer_rate": 0.3020833333333333
+      },
+      "advantage_correct_vs_complementary": {
+        "accuracy_pp": 20.052083333333336,
+        "accuracy_pp_ci95": [
+          10.154947916666664,
+          30.312499999999996
+        ],
+        "nll_swap_penalty": 0.8956170053904012,
+        "nll_swap_penalty_ci95": [
+          0.5532996263439448,
+          1.2628575765783203
+        ],
+        "by_type_accuracy_pp": {
+          "number": 11.666666666666666,
+          "other": 26.25,
+          "yes/no": 19.444444444444443
+        }
+      },
+      "n_pairs": 96,
+      "n_questions": 192
+    }
+  },
+  "gpu": {
+    "peak_alloc_gb": 1.4254913330078125,
+    "peak_reserved_gb": 1.88671875
+  },
+  "env": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "cuda": "12.8",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "lm_eval": "0.4.13",
+    "datasets": "4.8.5",
+    "safetensors": "0.8.0"
+  },
+  "bootstrap": {
+    "resamples": 4000,
+    "unit": "complete pairs",
+    "seed": 6304,
+    "paired_across_conditions": "advantage uses one shared resample set"
+  }
+}

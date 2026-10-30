@@ -1,0 +1,48 @@
+{
+  "run": "fullft",
+  "config": {
+    "method": "full",
+    "lr": 2e-05,
+    "lam": 0.0
+  },
+  "seed": 6304,
+  "updates": 1250,
+  "examples": 40000,
+  "micro_batch": 2,
+  "grad_accum": 16,
+  "warmup": 38,
+  "schedule": "linear warmup 38, cosine to 0 at 1250",
+  "precision": "fp16 autocast + dynamic GradScaler; fp32 master (full) / fp16 frozen backbone + fp32 adapters",
+  "trainable_params": 596049920,
+  "train_time_s": 8266.724047660828,
+  "train_time_h": 2.296312235461341,
+  "wall_time_this_session_s": 8408.254832029343,
+  "sessions": 1,
+  "peak_alloc_gb": 11.694881916046143,
+  "peak_reserved_gb_last_session": 14.41015625,
+  "skipped_updates": [],
+  "overhead": {
+    "recovery_ckpt_bytes": {
+      "312": 7153025689,
+      "625": 7153025753,
+      "937": 7153025753,
+      "1250": 7153027001
+    }
+  },
+  "env": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "cuda": "12.8",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "lm_eval": "0.4.13",
+    "datasets": "4.8.5",
+    "safetensors": "0.8.0"
+  },
+  "exports": {
+    "mid": "outputs/task1/fullft/mid/export_info.json",
+    "final": "outputs/task1/fullft/final/export_info.json"
+  }
+}

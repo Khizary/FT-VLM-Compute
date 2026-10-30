@@ -10,3 +10,4 @@ __pycache__/
 *.npy
 ATML-PA3.pdf
 previous.txt
+results/task1/samples/raw/

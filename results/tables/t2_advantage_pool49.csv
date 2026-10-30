@@ -1,0 +1,3 @@
+Acc. 95% CI,Acc. advantage (pp),NLL 95% CI,Suite,Swap NLL penalty,counting (pp),number (pp),other (pp),presence (pp),yes/no (pp)
+[53.9, 77.3],66.40625,[2.41, 3.69],Grounding,3.055908216027433,45.3125,,,87.5,
+[10.2, 30.3],20.052083333333336,[0.55, 1.26],VQAv2,0.8956170053904012,,11.666666666666666,26.25,,19.444444444444443

@@ -1,0 +1,17 @@
+{
+ "math": {
+  "selection_rule_examples": "first 3 eval questions in permutation order with both correct and incorrect rollouts; highest/lowest self-certainty rollout of each"
+ },
+ "mathvista": {
+  "confidence_vision_corr_within_rollout": {
+   "mean": -0.2106680740611772,
+   "median": -0.2084831608165274,
+   "q25": -0.3326818031425316,
+   "q75": -0.0740059459714427,
+   "frac_positive": 0.14715313624276552,
+   "n_rollouts": 25572
+  },
+  "identity_Ztoken_minus_Z_equals_cov_max_abs_err": 0.0,
+  "selection_rule_examples": "first 3 eval questions in permutation order with both correct and incorrect rollouts; highest/lowest self-certainty rollout of each"
+ }
+}

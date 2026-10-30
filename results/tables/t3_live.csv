@@ -1,0 +1,4 @@
+Strategy,Accuracy,Input tok,Output tok,Time (s),Call trunc. %,Call extract. %,Final answer extracted %
+Single response (3,072 cap),62.0,108.38,760.36,38.05300084590912,4.0,96.0,96.0
+Parallel x3 (1,024 each) + SC,54.0,325.14,1857.02,91.8185196685791,16.666666666666664,83.33333333333334,78.0
+Initial (1,024) + revision (2,048),60.0,889.62,1263.02,63.38727282047272,11.0,89.0,98.0

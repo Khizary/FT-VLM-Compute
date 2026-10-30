@@ -1,0 +1,434 @@
+[
+  {
+    "pair_id": "pres_val_64_185559_475330",
+    "type": "presence",
+    "category": "potted plant",
+    "question": "Does this image contain a potted plant?",
+    "sides": [
+      {
+        "image": "val:475330",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:185559",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_16_412364_14504",
+    "type": "presence",
+    "category": "bird",
+    "question": "Does this image contain a bird?",
+    "sides": [
+      {
+        "image": "val:14504",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:412364",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_31_226147_579402",
+    "type": "presence",
+    "category": "handbag",
+    "question": "Does this image contain a handbag?",
+    "sides": [
+      {
+        "image": "val:226147",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:579402",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_40_493923_18750",
+    "type": "presence",
+    "category": "baseball glove",
+    "question": "Does this image contain a baseball glove?",
+    "sides": [
+      {
+        "image": "val:493923",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:18750",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_25_325198_182523",
+    "type": "presence",
+    "category": "giraffe",
+    "question": "Does this image contain a giraffe?",
+    "sides": [
+      {
+        "image": "val:325198",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:182523",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_10_532580_355106",
+    "type": "presence",
+    "category": "traffic light",
+    "question": "Does this image contain a traffic light?",
+    "sides": [
+      {
+        "image": "val:355106",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:532580",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_63_324710_578236",
+    "type": "presence",
+    "category": "couch",
+    "question": "Does this image contain a couch?",
+    "sides": [
+      {
+        "image": "val:578236",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:324710",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_18_264392_150016",
+    "type": "presence",
+    "category": "dog",
+    "question": "Does this image contain a dog?",
+    "sides": [
+      {
+        "image": "val:264392",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:150016",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_25_575209_258019",
+    "type": "presence",
+    "category": "giraffe",
+    "question": "Does this image contain a giraffe?",
+    "sides": [
+      {
+        "image": "val:258019",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:575209",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_70_241876_246199",
+    "type": "presence",
+    "category": "toilet",
+    "question": "Does this image contain a toilet?",
+    "sides": [
+      {
+        "image": "val:241876",
+        "canonical": "yes",
+        "target": "yes"
+      },
+      {
+        "image": "val:246199",
+        "canonical": "no",
+        "target": "no"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_8_365745_284535",
+    "type": "presence",
+    "category": "truck",
+    "question": "Does this image contain a truck?",
+    "sides": [
+      {
+        "image": "val:284535",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:365745",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "pres_val_35_64462_211713",
+    "type": "presence",
+    "category": "skis",
+    "question": "Does this image contain skis?",
+    "sides": [
+      {
+        "image": "val:211713",
+        "canonical": "no",
+        "target": "no"
+      },
+      {
+        "image": "val:64462",
+        "canonical": "yes",
+        "target": "yes"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_25_202880_506540",
+    "type": "counting",
+    "category": "giraffe",
+    "question": "How many giraffes can you see?",
+    "sides": [
+      {
+        "image": "val:202880",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:506540",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_16_495541_210032",
+    "type": "counting",
+    "category": "bird",
+    "question": "How many birds can you see?",
+    "sides": [
+      {
+        "image": "val:495541",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:210032",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_86_156806_285200",
+    "type": "counting",
+    "category": "vase",
+    "question": "How many vases can you see?",
+    "sides": [
+      {
+        "image": "val:156806",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:285200",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_79_378311_159791",
+    "type": "counting",
+    "category": "oven",
+    "question": "How many ovens can you see?",
+    "sides": [
+      {
+        "image": "val:378311",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:159791",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_10_38321_481325",
+    "type": "counting",
+    "category": "traffic light",
+    "question": "How many traffic lights can you see?",
+    "sides": [
+      {
+        "image": "val:38321",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:481325",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_40_477087_182021",
+    "type": "counting",
+    "category": "baseball glove",
+    "question": "How many baseball gloves can you see?",
+    "sides": [
+      {
+        "image": "val:477087",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:182021",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_15_188624_237428",
+    "type": "counting",
+    "category": "bench",
+    "question": "How many benches can you see?",
+    "sides": [
+      {
+        "image": "val:188624",
+        "canonical": "1",
+        "target": "1"
+      },
+      {
+        "image": "val:237428",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_17_467157_118546",
+    "type": "counting",
+    "category": "cat",
+    "question": "How many cats can you see?",
+    "sides": [
+      {
+        "image": "val:467157",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:118546",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_86_96251_326308",
+    "type": "counting",
+    "category": "vase",
+    "question": "How many vases can you see?",
+    "sides": [
+      {
+        "image": "val:96251",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:326308",
+        "canonical": "1",
+        "target": "1"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_38_118852_205230",
+    "type": "counting",
+    "category": "kite",
+    "question": "How many kites can you see?",
+    "sides": [
+      {
+        "image": "val:118852",
+        "canonical": "3",
+        "target": "3"
+      },
+      {
+        "image": "val:205230",
+        "canonical": "2",
+        "target": "2"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_51_578821_271620",
+    "type": "counting",
+    "category": "bowl",
+    "question": "How many bowls can you see?",
+    "sides": [
+      {
+        "image": "val:578821",
+        "canonical": "2",
+        "target": "2"
+      },
+      {
+        "image": "val:271620",
+        "canonical": "4",
+        "target": "4"
+      }
+    ]
+  },
+  {
+    "pair_id": "cnt_val_61_375980_162092",
+    "type": "counting",
+    "category": "cake",
+    "question": "How many cakes can you see?",
+    "sides": [
+      {
+        "image": "val:375980",
+        "canonical": "4",
+        "target": "4"
+      },
+      {
+        "image": "val:162092",
+        "canonical": "3",
+        "target": "3"
+      }
+    ]
+  }
+]

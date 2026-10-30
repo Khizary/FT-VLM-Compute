@@ -1,0 +1,35 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 84841.56 examples/s]
+
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 289345.55 examples/s]
+
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]
+Generating train split:  73%|███████▎  | 29000/39905 [00:00<00:00, 268098.21 examples/s]
+Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 271278.09 examples/s]
+
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 273795.64 examples/s]
+
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 295448.94 examples/s]
+
+Generating train split:   0%|          | 0/9427 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 9427/9427 [00:00<00:00, 393285.10 examples/s]
+
+Generating validation split:   0%|          | 0/3270 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3270/3270 [00:00<00:00, 358609.37 examples/s]
+
+Generating test split:   0%|          | 0/3245 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 3245/3245 [00:00<00:00, 372360.38 examples/s]
+
+Generating train split:   0%|          | 0/2251 [00:00<?, ? examples/s]
+Generating train split: 100%|██████████| 2251/2251 [00:00<00:00, 371152.54 examples/s]
+
+Generating test split:   0%|          | 0/2376 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 2376/2376 [00:00<00:00, 452080.67 examples/s]
+
+Generating validation split:   0%|          | 0/570 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 570/570 [00:00<00:00, 148364.98 examples/s]

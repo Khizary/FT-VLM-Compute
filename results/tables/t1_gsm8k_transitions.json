@@ -1,0 +1,54 @@
+{
+ "fullft_mid": {
+  "wrong_to_right": 332,
+  "right_to_wrong": 139,
+  "net": 193,
+  "wrong_answers_truncated": 9,
+  "boxed_or_answer_is_style": 0.9931766489764974,
+  "mean_tokens": 140.48976497346476
+ },
+ "fullft": {
+  "wrong_to_right": 383,
+  "right_to_wrong": 94,
+  "net": 289,
+  "wrong_answers_truncated": 8,
+  "boxed_or_answer_is_style": 0.9939347990902199,
+  "mean_tokens": 137.1008339651251
+ },
+ "l2sp": {
+  "wrong_to_right": 381,
+  "right_to_wrong": 100,
+  "net": 281,
+  "wrong_answers_truncated": 8,
+  "boxed_or_answer_is_style": 0.9939347990902199,
+  "mean_tokens": 138.80894617134192
+ },
+ "lora4": {
+  "wrong_to_right": 351,
+  "right_to_wrong": 131,
+  "net": 220,
+  "wrong_answers_truncated": 12,
+  "boxed_or_answer_is_style": 0.9893858984078847,
+  "mean_tokens": 142.0947687642153
+ },
+ "lora16": {
+  "wrong_to_right": 377,
+  "right_to_wrong": 121,
+  "net": 256,
+  "wrong_answers_truncated": 7,
+  "boxed_or_answer_is_style": 0.9931766489764974,
+  "mean_tokens": 139.02198635329796
+ },
+ "oplora": {
+  "wrong_to_right": 363,
+  "right_to_wrong": 124,
+  "net": 239,
+  "wrong_answers_truncated": 11,
+  "boxed_or_answer_is_style": 0.9893858984078847,
+  "mean_tokens": 140.33510235026534
+ },
+ "baseline": {
+  "boxed_or_answer_is_style": 0.4071266110689917,
+  "mean_tokens": 224.8718726307809
+ }
+}

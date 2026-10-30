@@ -1,0 +1,12 @@
+localonly/
+outputs/
+kaggle_deploy/
+kaggle_output/
+__pycache__/
+*.pyc
+.venv/
+*.pt
+*.safetensors
+*.npy
+ATML-PA3.pdf
+previous.txt

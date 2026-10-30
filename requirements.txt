@@ -1,0 +1,6 @@
+# Kaggle GPU image provides torch / transformers / datasets / safetensors; these are added on top
+lm-eval==0.4.13
+math-verify==0.9.0
+pyyaml
+pandas
+pyarrow

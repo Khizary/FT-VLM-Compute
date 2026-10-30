@@ -104,10 +104,18 @@ def main():
             out = enc(pixel_values=px.to(dev), output_hidden_states=check is None)
             h = out.last_hidden_state
             assert h.shape[1:] == (196, 768), h.shape
-            if check is None:  # last_hidden_state already = post_layernorm(final encoder output); applied exactly once
-                manual = enc.vision_model.post_layernorm(out.hidden_states[-1])
-                check = {"max_abs_diff_vs_manual_postln": float((manual - h).abs().max()), "shape": list(h.shape[1:])}
-                assert check["max_abs_diff_vs_manual_postln"] < 1e-4, check
+            if check is None:  # decide once whether last_hidden_state already includes the final post-layernorm
+                post_ln = next(m for n, m in enc.named_modules() if n.endswith("post_layernorm"))  # attribute path differs across versions
+                pre = out.hidden_states[-1]
+                d_post = float((post_ln(pre) - h).abs().max())
+                d_pre = float((pre - h).abs().max())
+                apply_ln = d_post > 1e-4 and d_pre < 1e-5  # HF returned pre-LN features -> apply it ourselves, once
+                assert d_post < 1e-4 or apply_ln, (d_post, d_pre)
+                check = {"diff_vs_postln_of_last_encoder_state": d_post, "diff_vs_raw_last_encoder_state": d_pre,
+                         "post_ln_applied_by": "script" if apply_ln else "transformers last_hidden_state", "shape": list(h.shape[1:])}
+                log(f"layernorm check: {check}")
+            if apply_ln:
+                h = post_ln(h)
             arr[row : row + len(h)] = h.half().cpu().numpy()
             row += len(h)
     torch.cuda.synchronize()

@@ -104,12 +104,22 @@ def run_lm_eval(model, tok, cond, limit, timing):
     import lm_eval
 
     seeds = dict(random_seed=SEED, numpy_random_seed=SEED, torch_random_seed=SEED, fewshot_random_seed=SEED)
-    lm = make_lm(model, tok, 32)
     res = {}
     # GSM8K: zero-shot gsm8k_cot, non-thinking chat template, greedy, 1024 new tokens, stock stops/filters
     t0 = time.time()
-    r = lm_eval.simple_evaluate(model=lm, tasks=["gsm8k_cot"], num_fewshot=0, apply_chat_template=True, fewshot_as_multiturn=False,
-                                gen_kwargs={"max_gen_toks": GSM_MAX_NEW, "do_sample": False}, log_samples=True, limit=limit, **seeds)
+    for bs in (64, 32):  # 64 for every condition; 32 only as an OOM fallback (recorded)
+        lm = make_lm(model, tok, bs)
+        try:
+            r = lm_eval.simple_evaluate(model=lm, tasks=["gsm8k_cot"], num_fewshot=0, apply_chat_template=True, fewshot_as_multiturn=False,
+                                        gen_kwargs={"max_gen_toks": GSM_MAX_NEW, "do_sample": False}, log_samples=True, limit=limit, **seeds)
+            break
+        except torch.OutOfMemoryError:
+            log(f"{cond}: gsm8k OOM at batch {bs}, retrying smaller")
+            del lm
+            torch.cuda.empty_cache()
+            if bs == 32:
+                raise
+    timing["gsm8k_batch_size"] = bs
     sync()
     timing["gsm8k_s"] = time.time() - t0
     res["gsm8k_cot"] = r["results"]["gsm8k_cot"]
@@ -228,7 +238,7 @@ def main():
     }
     out = {"cond": a.cond, "primary": primary, "limit": a.limit, "build": info, "timing_s": timing, "gpu": gpu_mem(), "lm_eval": res,
            "settings": {"dtype": "fp16", "num_fewshot": 0, "gsm8k": "gsm8k_cot, non-thinking chat template, greedy, max_gen_toks 1024, stock until/filters",
-                        "likelihood": "stock prompts, no chat template", "batch_size": {"gsm8k": 32, "likelihood": 16}}, "env": env_info()}
+                        "likelihood": "stock prompts, no chat template", "batch_size": {"gsm8k": 64, "likelihood": 16}}, "env": env_info()}
     jdump(out, f"{RES}/eval_{a.cond}.json")
     log(f"{a.cond} primary: {primary}")
 

@@ -47,7 +47,8 @@ WORK = '/kaggle/working/pa3'
 os.makedirs(WORK, exist_ok=True)
 os.environ.update(PA3_DEADLINE=str(DEADLINE), PYTHONUNBUFFERED='1', TOKENIZERS_PARALLELISM='false',
                   HF_HOME='/tmp/hf', PA3_SCRATCH='/tmp/pa3_scratch', PA3_RAW='/tmp/pa3_raw', PA3_IMG='/tmp/coco_img',
-                  HF_HUB_DISABLE_PROGRESS_BARS='1', TRANSFORMERS_VERBOSITY='warning')
+                  HF_HUB_DISABLE_PROGRESS_BARS='1', TRANSFORMERS_VERBOSITY='warning',
+                  PYTORCH_CUDA_ALLOC_CONF='expandable_segments:True')
 print('role', ROLE, 'smoke', SMOKE, 'deadline in', (DEADLINE - T0) / 3600, 'h')"""),
         cell(f"""# unpack the embedded code (only code/data files are overwritten; outputs/results/state are kept)
 import base64, io, tarfile

@@ -36,10 +36,12 @@ def jobs_task1(smoke):
               ("diagnostics", "python -m task1_ft.diagnostics", ["train_fullft", "train_l2sp", "train_lora4", "train_lora16", "train_oplora"])]
         return g0, g1
     ev = lambda c, deps: (f"eval_{c}", f"python -m task1_ft.evaluate --cond {c}", deps)
-    g0 = [("train_fullft", tr("fullft"), []), ("train_l2sp", tr("l2sp"), []),
-          ev("baseline", []), ev("fullft_mid", ["train_fullft"]), ev("fullft", ["train_fullft"]), ev("l2sp", ["train_l2sp"])]
-    g1 = [("train_lora16", tr("lora16"), []), ("train_oplora", tr("oplora"), []), ("train_lora4", tr("lora4"), []),
-          ev("lora16", ["train_lora16"]), ev("oplora", ["train_oplora"]), ev("lora4", ["train_lora4"]),
+    # balanced from smoke timings (s/update: full 6.3, lora16 8.0, lora4 7.5, oplora 9.9; eval ~45 min): ~9.3 h per GPU
+    g0 = [("train_fullft", tr("fullft"), []), ("train_l2sp", tr("l2sp"), []), ("train_oplora", tr("oplora"), []),
+          ev("oplora", ["train_oplora"]), ev("baseline", [])]
+    g1 = [("train_lora16", tr("lora16"), []), ("train_lora4", tr("lora4"), []),
+          ev("fullft_mid", ["train_fullft"]), ev("fullft", ["train_fullft"]), ev("l2sp", ["train_l2sp"]),
+          ev("lora16", ["train_lora16"]), ev("lora4", ["train_lora4"]),
           ("diagnostics", "python -m task1_ft.diagnostics", ["train_fullft", "train_l2sp", "train_lora4", "train_lora16", "train_oplora"])]
     return g0, g1
 
